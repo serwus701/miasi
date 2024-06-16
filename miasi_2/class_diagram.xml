@@ -1,0 +1,41 @@
+<uml>
+    <class name="Person" type="class">
+        <attribute name="name" type="String" visibility="public" />
+        <attribute name="age" type="int" visibility="private" />
+        <method name="getDetails" return="String" visibility="public" />
+    </class>
+    <class name="Employee" type="class">
+        <attribute name="employeeId" type="int" visibility="public" />
+        <attribute name="department" type="String" visibility="private" />
+        <method name="calculateSalary" return="float" visibility="public" />
+    </class>
+    <class name="Manager" type="class">
+        <attribute name="level" type="int" visibility="protected" />
+        <method name="approveRequest" return="boolean" visibility="public" />
+    </class>
+    <class name="Department" type="class">
+        <attribute name="departmentName" type="String" visibility="public" />
+        <attribute name="location" type="String" visibility="private" />
+    </class>
+    <class name="Project" type="class">
+        <attribute name="projectName" type="String" visibility="public" />
+        <attribute name="budget" type="float" visibility="private" />
+        <method name="getBudget" return="float" visibility="public" />
+    </class>
+    <class name="AbstractEmployee" type="abstract">
+        <attribute name="employeeId" type="int" visibility="public" />
+        <method name="calculateSalary" return="float" visibility="public" />
+    </class>
+    <class name="IEmployee" type="interface">
+        <method name="calculateSalary" return="float" visibility="public" />
+    </class>
+    <association from="Person" to="Employee" type="inheritance" />
+    <association from="Employee" to="Manager" type="inheritance" />
+    <association from="Manager" to="Department" type="aggregation" />
+    <association from="Department" to="Project" type="composition" />
+    <association from="Employee" to="Project" type="association" />
+    <association from="Manager" to="Project" type="association" />
+    <association from="Project" to="Department" type="aggregation" />
+    <association from="Employee" to="AbstractEmployee" type="inheritance" />
+    <association from="Employee" to="IEmployee" type="implementation" />
+</uml>

@@ -1,0 +1,21 @@
+<uml>
+    <actor name="User" />
+    <actor name="Admin" />
+    <actor name="Client" />
+    <actor name="Staff" />
+    <actor name="John" />
+    <usecase name="Login" />
+    <usecase name="ViewProfile" />
+    <usecase name="EditProfile" />
+    <usecase name="DeleteAccount" />
+    <association from="User" to="Admin" type="inheritance" />
+    <association from="User" to="Client" type="inheritance" />
+    <association from="User" to="Login" type="association" />
+    <association from="User" to="ViewProfile" type="association" />
+    <association from="User" to="EditProfile" type="association" />
+    <association from="Admin" to="DeleteAccount" type="association" />
+    <association from="Admin" to="ViewProfile" type="association" />
+    <association from="Client" to="John" type="inheritance" />
+    <association from="Staff" to="ViewProfile" type="association" />
+    <association from="Staff" to="EditProfile" type="association" />
+</uml>
