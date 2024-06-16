@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<activityDiagram>
+    <activity id="A1" name="Start" x="100" y="100" />
+    <activity id="A2" name="Step 1" x="250" y="100" />
+    <activity id="A3" name="Decision" x="400" y="100" />
+    <activity id="A4" name="Step 2a" x="550" y="50" />
+    <activity id="A5" name="Step 2b" x="550" y="150" />
+    <activity id="A6" name="End" x="700" y="100" />
+
+    <transition from="A1" to="A2" />
+    <transition from="A2" to="A3" />
+    <transition from="A3" to="A4" />
+    <transition from="A3" to="A5" />
+    <transition from="A4" to="A6" />
+    <transition from="A5" to="A6" />
+</activityDiagram>

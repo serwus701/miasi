@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project Author="Student" CommentTableSortAscending="false" CommentTableSortColumn="Date Time" Description="&lt;html&gt;&#13;&#10;  &lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;  &lt;/body&gt;&#13;&#10;&lt;/html&gt;&#13;&#10;" DocumentationType="html" ExportedFromDifferentName="false" ExporterVersion="16.1.1" Name="lab2" TextualAnalysisHighlightOptionCaseSensitive="false" UmlVersion="2.x" Xml_structure="simple">
+	<ProjectInfo>
+		<LogicalView/>
+		<ProjectOptions>
+			<DiagramOptions ActivityDiagramControlFlowDisplayOption="\u0000" ActivityDiagramShowActionCallBehaviorOption="\u0000" ActivityDiagramShowActivityEdgeWeight="true" ActivityDiagramShowDiagramFrame="true" ActivityDiagramShowObjectNodeType="true" ActivityDiagramShowPartitionHandle="\u0000" AddDataStoresExtEntitiesToDecomposedDFD="\u0002" AlignColumnProperties="true" AllowConfigShowInOutFlowButtonsInDataFlowDiagram="false" AutoGenerateRoleName="false" AutoSetAttributeType="true" AutoSetColumnType="true" AutoSyncRoleName="true" BlockDefinitionDiagramShowDiagramFrame="true" BpPoolLaneDefaultOrientation="\u0000" BpdAutoStretchPools="true" BpdConnectGatewayWithFlowObjectInDifferentPool="\u0000" BpdDefaultConnectionPointStyle="\u0001" BpdDefaultConnectorStyle="\u0005" BpdDhowIdOption="\u0000" BpdShowActivitiesTypeIcon="true" BusinessProcessDiagramDefaultLanguage="English" ClassVisibilityStyle="\u0001" ConnectorLabelOrientation="\u0000" CreateOneMessagePerDirection="true" DecisionMergeNodeConnectionPointStyle="\u0000" DefaultAssociationEndNavigable="\u0001" DefaultAssociationEndVisibility="\u0000" DefaultAssociationShowFromMultiplicity="true" DefaultAssociationShowFromRoleName="true" DefaultAssociationShowFromRoleVisibility="true" DefaultAssociationShowStereotypes="true" DefaultAssociationShowToMultiplicity="true" DefaultAssociationShowToRoleName="true" DefaultAssociationShowToRoleVisibility="true" DefaultAttributeMultiplicity="false" DefaultAttributeType="" DefaultAttributeVisibility="\u0001" DefaultClassAttributeMultiplicity="" DefaultClassAttributeMultiplicityOrdered="false" DefaultClassAttributeMultiplicityUnique="true" DefaultClassInterfaceBall="false" DefaultClassVisibility="\u0004" DefaultColumnType="integer(10)" DefaultConnectionPointStyle="\u0000" DefaultConnectorStyle="\u0001" DefaultDiagramBackground="rgb(255, 255, 255)" DefaultDisplayAsRobustnessAnalysisIcon="true" DefaultDisplayAsRobustnessAnalysisIconInSequenceDiagram="true" DefaultDisplayAsStereotypeIcon="false" DefaultFontColor="rgb(0, 0, 0)" DefaultGenDiagramTypeFromScenario="\u0000" DefaultHtmlDocFontColor="rgb(0, 0, 0)" DefaultLineJumps="\u0000" DefaultOperationVisibility="\u0004" DefaultParameterDirection="\u0002" DefaultShowAttributeInitialValue="true" DefaultShowAttributeOption="\u0001" DefaultShowClassMemberStereotype="true" DefaultShowDirection="false" DefaultShowMultiplicityConstraints="false" DefaultShowOperationOption="\u0001" DefaultShowOperationSignature="true" DefaultShowOrderedMultiplicityConstraint="true" DefaultShowOwnedAssociationEndAsAttribute="true" DefaultShowOwner="false" DefaultShowOwnerSkipModelInFullyQualifiedOwnerSignature="true" DefaultShowReceptionOption="\u0001" DefaultShowTemplateParameter="true" DefaultShowTypeOption="\u0001" DefaultShowUniqueMultiplicityConstraint="true" DefaultTypeOfSubProcess="\u0000" DefaultWrapClassMember="false" DrawTextAnnotationOpenRectangleFollowConnectorEnd="true" EnableMinimumSize="true" EntityColumnConstraintsPresentation="\u0002" ErdIndexNumOfDigits="-1" ErdIndexPattern="{table_name}" ErdIndexPatternSyncAutomatically="true" ErdManyToManyJoinTableDelimiter="_" EtlTableDiagramFontSize="14" ExpandedSubProcessDiagramContent="\u0001" ForeignKeyArrowHeadSize="\u0002" ForeignKeyConnectorEndPointAssociatedColumn="false" ForeignKeyNamePattern="{reference_table_name}{reference_column_name}" ForeignKeyNamePatternCaseHandling="0" ForeignKeyRelationshipPattern="{association_name}" FractionalMetrics="true" GeneralizationSetNotation="\u0001" GraphicAntiAliasing="true" GridDiagramFontSize="14" InteractionDiagramShowDiagramFrame="true" InternalBlockDiagramShowDiagramFrame="true" LineJumpSize="\u0000" ModelElementNameAlignment="\u0004" MultipleLineClassName="\u0001" PackageDiagramShowDiagramFrame="true" PaintConnectorThroughLabel="false" ParametricDiagramShowDiagramFrame="true" PointConnectorEndToCompartmentMember="true" PrimaryKeyConstraintPattern="" PrimaryKeyNamePattern="ID" RenameConstructorAfterRenameClass="\u0000" RenameExtensionPointToFollowExtendUseCase="\u0000" RequirementDiagramShowDiagramFrame="true" ShapeAutoFitSize="false" ShowActivationsInSequenceDiagram="true" ShowActivityStateNodeCaption="524287" ShowArtifactOption="\u0002" ShowAssociatedDiagramNameOfInteraction="false" ShowAssociationRoleStereotypes="true" ShowAttributeGetterSetter="false" ShowBSElementCode="true" ShowClassEmptyCompartments="false" ShowColumnDefaultValue="false" ShowColumnNullable="true" ShowColumnType="true" ShowColumnUniqueConstraintName="false" ShowColumnUserType="false" ShowComponentOption="\u0002" ShowExtraColumnProperties="true" ShowInOutFlowButtonsInDataFlowDiagram="false" ShowInOutFlowsInSubLevelDiagram="true" ShowMessageOperationSignatureForSequenceAndCommunicationDiagram="true" ShowMessageStereotypeInSequenceAndCommunicationDiagram="true" ShowNumberInCollaborationDiagram="true" ShowNumberInSequenceDiagram="true" ShowPackageNameStyle="\u0000" ShowParameterNameInOperationSignature="true" ShowRowGridLineWithinCompClassDiagram="false" ShowRowGridLineWithinCompERD="true" ShowRowGridLineWithinORMDiagram="true" ShowSchemaNameInERD="true" ShowTransitionTrigger="\u0000" ShowUseCaseExtensionPoint="true" ShowUseCaseID="false" SnapConnectorsAfterZoom="false" StateDiagramShowDiagramFrame="true" StateShowParametersOfInternalActivities="false" StateShowPrePostConditionAndBodyOfInternalActivities="true" StopTargetLifelineOnCreateDestroyMessage="\u0002" SupportHtmlTaggedValue="true" SupportMultipleLineAttribute="true" SuppressImpliedMultiplicityForAttributeAssociationEnd="false" SyncAssociationNameWithAssociationClass="\u0000" SyncAssociationRoleNameWithReferencedAttributeName="true" SyncDocOfInterfaceToSubClass="\u0000" TextAntiAliasing="true" TextualAnalysisGenerateRequirementTextOption="\u0001" TextualAnalysisHighlightOption="\u0000" UnnamedIndexPattern="{table_name}_{column_name}" UseCaseDiagramShowDiagramFrame="true" UseStateNameTab="false" WireflowDiagramDevice="0" WireflowDiagramShowActiveFlowLabel="true" WireflowDiagramTheme="0" WireflowDiagramWireflowShowPreview="true" WireflowDiagramWireflowShowScreenId="true">
+				<DefaultHtmlDocFont Family="Dialog" Size="12" Style="0"/>
+			</DiagramOptions>
+			<GeneralOptions ConfirmSubLevelIdWithDot="true" QuickAddGlossaryTermParentModelId="default"/>
+			<InstantReverseOptions CalculateGeneralizationAndRealization="false" CreateShapeForParentModelOfDraggedClassPackage="false" ReverseGetterSetter="\u0000" ReverseOperationImplementation="false" ShowPackageForNewDiagram="\u0001" ShowPackageOwner="\u0000"/>
+			<ModelQualityOptions EnableModelQualityChecking="false"/>
+			<ORMOptions AlterColumnUserType="true" DecimalPrecision="19" DecimalScale="0" ExportCommentToDatabase="true" FormattedSQL="false" GenerateAssociationWithAttribute="false" GenerateDiagramFromORMWizards="true" GetterSetterVisibility="\u0000" IdGeneratorType="native" MappingFileColumnOrder="\u0000" NumericToClassType="\u0000" QuoteSQLIdentifier="\u0000" RecreateShapeWhenSync="false" SyncToClassDiagramAttributeName="\u0001" SyncToClassDiagramAttributeNamePrefix="" SyncToClassDiagramAttributeNameSuffix="" SyncToClassDiagramClassName="\u0000" SyncToClassDiagramClassNamePrefix="" SyncToClassDiagramClassNameSuffix="" SyncToERDColumnName="\u0000" SyncToERDColumnNamePrefix="" SyncToERDColumnNameSuffix="" SyncToERDTableName="\u0004" SyncToERDTableNamePrefix="" SyncToERDTableNameSuffix="" SynchronizeDefaultValueToColumn="false" SynchronizeName="\u0002" TablePerSubclassFKMapping="\u0000" UpperCaseSQL="true" UseDefaultDecimal="true" WrappingServletRequest="\u0001"/>
+			<RequirementDiagramOptions DefaultWrapMember="true" ShowAttributes="\u0001" SupportHTMLAttribute="false"/>
+			<StateCodeEngineOptions AutoCreateInitialStateInStateDiagram="true" AutoCreateTransitionMethods="true" DefaultInitialStateLocationX="-1" DefaultInitialStateLocationY="-1" GenerateDebugMessage="false" GenerateSample="true" GenerateTryCatch="true" Language="\u0000" RegenerateTransitionMethods="false" SyncTransitionMethods="true"/>
+			<WarningOptions CreateORMClassInDefaultPackage="true"/>
+			<PORepository>
+				<POUserIDFormats>
+					<POUserIDFormat Digits="2" Guid="false" Id="w6IBq8GGAqBwAQkf" LastNumericValue="0" ModelType="BPMNElement" Prefix="BP" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="o6IBq8GGAqBwAQkg" LastNumericValue="2" ModelType="Actor" Prefix="AC" Suffix=""/>
+					<POUserIDFormat Digits="2" Guid="false" Id="o6IBq8GGAqBwAQkh" LastNumericValue="10" ModelType="UseCase" Prefix="UC" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="o6IBq8GGAqBwAQki" LastNumericValue="10" ModelType="Requirement" Prefix="REQ" Suffix=""/>
+					<POUserIDFormat Digits="3" Guid="false" Id="o6IBq8GGAqBwAQkj" LastNumericValue="0" ModelType="BusinessRule" Prefix="BR" Suffix=""/>
+					<POUserIDFormat Digits="-1" Guid="false" Id="o6IBq8GGAqBwAQkk" LastNumericValue="0" ModelType="BusinessProcessDiagram" Prefix="" Suffix=""/>
+				</POUserIDFormats>
+			</PORepository>
+		</ProjectOptions>
+	</ProjectInfo>
+	<Models>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="jTwBq8GGAqBwAQWq" Name="boolean" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.705" PmLastModified="2022-10-14T09:58:27.236" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="TTwBq8GGAqBwAQWr" Name="byte" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.706" PmLastModified="2022-10-14T09:58:27.263" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="zTwBq8GGAqBwAQWs" Name="char" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.707" PmLastModified="2022-10-14T09:58:27.247" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="zTwBq8GGAqBwAQWt" Name="double" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.707" PmLastModified="2022-10-14T09:58:27.247" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="zTwBq8GGAqBwAQWu" Name="float" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.707" PmLastModified="2022-10-14T09:58:27.247" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="LTwBq8GGAqBwAQWv" Name="int" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.708" PmLastModified="2022-10-14T09:58:27.251" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="LTwBq8GGAqBwAQWw" Name="long" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.708" PmLastModified="2022-10-14T09:58:27.251" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="LTwBq8GGAqBwAQWx" Name="short" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.708" PmLastModified="2022-10-14T09:58:27.251" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="LTwBq8GGAqBwAQWy" Name="void" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.709" PmLastModified="2022-10-14T09:58:27.251" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<DataType BacklogActivityId="0" Documentation_plain="" Id="rTwBq8GGAqBwAQWz" Name="string" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.709" PmLastModified="2022-10-14T09:58:27.240" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<Stereotype Abstract="false" BacklogActivityId="0" BaseType="UseCase" Documentation_plain="" IconPath_IsNull="true" Id="DrwBq8GGAqBwAQfL" Leaf="false" Name="UseCase" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.906" PmLastModified="2022-10-14T09:58:27.222" QualityReason_IsNull="true" QualityScore="-1" Root="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+			<TaggedValueDefinitions>
+				<TaggedValueDefinitionContainer Id="zrwBq8GGAqBwAQfM" Name="">
+					<ModelChildren>
+						<TaggedValueDefinition BacklogActivityId="0" DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="zrwBq8GGAqBwAQfN" Name="Level" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.900" PmLastModified="2022-10-14T09:58:27.223" QualityReason_IsNull="true" QualityScore="-1" TagDefStereotype="DrwBq8GGAqBwAQfL" Type="Enumeration" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<EnumerationValues>
+								<Value Value="Summary"/>
+								<Value Value="User"/>
+								<Value Value="Subfunction"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition BacklogActivityId="0" DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="LrwBq8GGAqBwAQfO" Name="Complexity" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.901" PmLastModified="2022-10-14T09:58:27.223" QualityReason_IsNull="true" QualityScore="-1" TagDefStereotype="DrwBq8GGAqBwAQfL" Type="Enumeration" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<EnumerationValues>
+								<Value Value="Low"/>
+								<Value Value="Medium"/>
+								<Value Value="High"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition BacklogActivityId="0" DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="rrwBq8GGAqBwAQfP" Name="Use Case Status" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.902" PmLastModified="2022-10-14T09:58:27.223" QualityReason_IsNull="true" QualityScore="-1" TagDefStereotype="DrwBq8GGAqBwAQfL" Type="Enumeration" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<EnumerationValues>
+								<Value Value="Name Only"/>
+								<Value Value="Initial"/>
+								<Value Value="Base"/>
+								<Value Value="Complete"/>
+								<Value Value="Deferred"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition BacklogActivityId="0" DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="brwBq8GGAqBwAQfQ" Name="Implementation Status" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.903" PmLastModified="2022-10-14T09:58:27.223" QualityReason_IsNull="true" QualityScore="-1" TagDefStereotype="DrwBq8GGAqBwAQfL" Type="Enumeration" UserIDLastNumericValue="0" UserID_IsNull="true">
+							<EnumerationValues>
+								<Value Value="Scheduled"/>
+								<Value Value="Started"/>
+								<Value Value="Partially Complete"/>
+								<Value Value="Complete"/>
+								<Value Value="Partially Deferred"/>
+							</EnumerationValues>
+						</TaggedValueDefinition>
+						<TaggedValueDefinition BacklogActivityId="0" DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="7rwBq8GGAqBwAQfR" Name="Preconditions" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.904" PmLastModified="2022-10-14T09:58:27.223" QualityReason_IsNull="true" QualityScore="-1" TagDefStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+						<TaggedValueDefinition BacklogActivityId="0" DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="HrwBq8GGAqBwAQfS" Name="Post-conditions" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.904" PmLastModified="2022-10-14T09:58:27.223" QualityReason_IsNull="true" QualityScore="-1" TagDefStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+						<TaggedValueDefinition BacklogActivityId="0" DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="HrwBq8GGAqBwAQfT" Name="Author" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.905" PmLastModified="2022-10-14T09:58:27.223" QualityReason_IsNull="true" QualityScore="-1" TagDefStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+						<TaggedValueDefinition BacklogActivityId="0" DefaultHTMLValue="" DefaultValue="" Documentation_plain="" Id="nrwBq8GGAqBwAQfU" Name="Assumptions" PmAuthor="Student" PmCreateDateTime="2022-10-14T09:58:14.906" PmLastModified="2022-10-14T09:58:27.223" QualityReason_IsNull="true" QualityScore="-1" TagDefStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+					</ModelChildren>
+				</TaggedValueDefinitionContainer>
+			</TaggedValueDefinitions>
+		</Stereotype>
+		<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="7JOtq8GGAqBwAQrs" Name="relationships" PmAuthor="Student" PmCreateDateTime="2022-10-14T10:56:44.087" PmLastModified="2022-12-15T20:41:28.476" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+			<ModelChildren>
+				<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="7JOtq8GGAqBwAQrt" Name="Association" PmAuthor="Student" PmCreateDateTime="2022-10-14T10:56:44.088" PmLastModified="2022-12-21T17:13:51.130" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<ModelChildren>
+						<Association Abstract="false" BacklogActivityId="0" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="C5js78GA0HX.rQho" EndRelationshipToMetaModelElement="az_s78GA0HX.rQij" FinalSpecialization="false" Id="wQY878GA0HX.rQmH" Leaf="false" OrderingInProfile="-1" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:12.771" PmLastModified="2022-10-20T23:16:40.362" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="C5js78GA0HX.rQho" Id="wQY878GA0HX.rQmI" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:12.771" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="wQY878GA0HX.rQmJ" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:12.771" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<Actor Idref="C5js78GA0HX.rQho" Name="Klient"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="az_s78GA0HX.rQij" Id="wQY878GA0HX.rQmK" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:12.771" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="wQY878GA0HX.rQmL" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:12.771" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<UseCase Idref="az_s78GA0HX.rQij" Name="Rezerwacja pokoju"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="qQY878GA0HX.rQmM"/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" BacklogActivityId="0" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="C5js78GA0HX.rQho" EndRelationshipToMetaModelElement="Ezvvn8GGAqBwAQx9" FinalSpecialization="false" Id="I7Y878GA0HX.rQmR" Leaf="false" OrderingInProfile="-1" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:16.164" PmLastModified="2022-10-21T11:55:56.913" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="C5js78GA0HX.rQho" Id="I7Y878GA0HX.rQmS" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:16.164" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="I7Y878GA0HX.rQmT" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:16.164" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<Actor Idref="C5js78GA0HX.rQho" Name="Klient"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Ezvvn8GGAqBwAQx9" Id="I7Y878GA0HX.rQmU" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:16.164" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="I7Y878GA0HX.rQmV" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:16.164" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<UseCase Idref="Ezvvn8GGAqBwAQx9" Name="Rezygnacja z rezerwacji"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="K7Y878GA0HX.rQmW"/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" BacklogActivityId="0" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="C5js78GA0HX.rQho" EndRelationshipToMetaModelElement="Lruc78GA0HX.rQkJ" FinalSpecialization="false" Id="du4878GA0HX.rQmZ" Leaf="false" OrderingInProfile="-1" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:18.638" PmLastModified="2022-10-21T11:33:20.948" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="C5js78GA0HX.rQho" Id="du4878GA0HX.rQma" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:18.638" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="du4878GA0HX.rQmb" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:18.638" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<Actor Idref="C5js78GA0HX.rQho" Name="Klient"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Lruc78GA0HX.rQkJ" Id="du4878GA0HX.rQmc" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:18.638" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="du4878GA0HX.rQmd" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:18.638" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<UseCase Idref="Lruc78GA0HX.rQkJ" Name="Modyfikacja rezerwacji"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="Ae4878GA0HX.rQme"/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" BacklogActivityId="0" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="Jbjs78GA0HX.rQhx" EndRelationshipToMetaModelElement="V5fc78GA0HX.rQlr" FinalSpecialization="false" Id="_QE878GA0HX.rQmh" Leaf="false" OrderingInProfile="-1" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:21.023" PmLastModified="2022-10-20T23:16:40.362" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Jbjs78GA0HX.rQhx" Id="_QE878GA0HX.rQmi" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:21.023" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="_QE878GA0HX.rQmj" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:21.023" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<Actor Idref="Jbjs78GA0HX.rQhx" Name="Pracownik"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="V5fc78GA0HX.rQlr" Id="_QE878GA0HX.rQmk" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:21.023" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="_QE878GA0HX.rQml" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:21.023" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<UseCase Idref="V5fc78GA0HX.rQlr" Name="Sprawdzenie stanu rezerwacji"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="ywE878GA0HX.rQmm"/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" BacklogActivityId="0" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="Jbjs78GA0HX.rQhx" EndRelationshipToMetaModelElement="Lruc78GA0HX.rQkJ" FinalSpecialization="false" Id="MVE878GA0HX.rQmp" Leaf="false" OrderingInProfile="-1" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:23.532" PmLastModified="2022-10-21T11:33:20.949" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Jbjs78GA0HX.rQhx" Id="MVE878GA0HX.rQmq" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:23.532" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="MVE878GA0HX.rQmr" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:23.532" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<Actor Idref="Jbjs78GA0HX.rQhx" Name="Pracownik"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Lruc78GA0HX.rQkJ" Id="MVE878GA0HX.rQms" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:23.532" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="MVE878GA0HX.rQmt" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:23.532" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<UseCase Idref="Lruc78GA0HX.rQkJ" Name="Modyfikacja rezerwacji"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="eVE878GA0HX.rQmu"/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" BacklogActivityId="0" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="Jbjs78GA0HX.rQhx" EndRelationshipToMetaModelElement="Ql2c78GA0HX.rQj1" FinalSpecialization="false" Id=".Uk878GA0HX.rQmx" Leaf="false" OrderingInProfile="-1" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:25.600" PmLastModified="2022-10-20T23:16:40.363" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Jbjs78GA0HX.rQhx" Id="BUk878GA0HX.rQmy" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:25.600" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="BUk878GA0HX.rQmz" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:25.600" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<Actor Idref="Jbjs78GA0HX.rQhx" Name="Pracownik"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Ql2c78GA0HX.rQj1" Id="BUk878GA0HX.rQm0" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:25.600" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="BUk878GA0HX.rQm1" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:25.600" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<UseCase Idref="Ql2c78GA0HX.rQj1" Name="Anulowanie rezerwacji"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="jUk878GA0HX.rQm2"/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" BacklogActivityId="0" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="Jbjs78GA0HX.rQhx" EndRelationshipToMetaModelElement="az_s78GA0HX.rQij" FinalSpecialization="false" Id="YTk878GA0HX.rQm5" Leaf="false" OrderingInProfile="-1" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:28.134" PmLastModified="2022-10-20T23:16:40.363" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="Jbjs78GA0HX.rQhx" Id="YTk878GA0HX.rQm6" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:28.134" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="YTk878GA0HX.rQm7" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:28.134" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<Actor Idref="Jbjs78GA0HX.rQhx" Name="Pracownik"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="az_s78GA0HX.rQij" Id="YTk878GA0HX.rQm8" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:28.134" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="YTk878GA0HX.rQm9" Name="" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:11:28.134" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<UseCase Idref="az_s78GA0HX.rQij" Name="Rezerwacja pokoju"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="6Tk878GA0HX.rQm."/>
+							</MasterView>
+						</Association>
+						<Association Abstract="false" BacklogActivityId="0" Derived="false" Direction="From To" Documentation_plain="" EndRelationshipFromMetaModelElement="C5js78GA0HX.rQho" EndRelationshipToMetaModelElement="V5fc78GA0HX.rQlr" FinalSpecialization="false" Id="jwsQX8GGAqBwAQ8C" Leaf="false" OrderingInProfile="-1" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:13:45.329" PmLastModified="2022-10-21T12:15:37.365" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<FromEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="C5js78GA0HX.rQho" Id="jwsQX8GGAqBwAQ8D" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:13:45.329" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="jwsQX8GGAqBwAQ8E" Name="" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:13:45.329" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<Actor Idref="C5js78GA0HX.rQho" Name="Klient"/>
+									</Type>
+								</AssociationEnd>
+							</FromEnd>
+							<ToEnd>
+								<AssociationEnd AggregationKind="None" BacklogActivityId="0" ConnectToCodeModel="1" DefaultValue_IsNull="true" Derived="false" DerivedUnion="false" Documentation_plain="" EndModelElement="V5fc78GA0HX.rQlr" Id="jwsQX8GGAqBwAQ8F" JavaCodeAttributeName="" Leaf="false" Multiplicity="Unspecified" Navigable="Navigable" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:13:45.329" PmLastModified_IsNull="true" ProvidePropertyGetterMethod="false" ProvidePropertySetterMethod="false" QualityReason_IsNull="true" QualityScore="-1" ReadOnly="false" Static="false" TypeModifier="" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+									<Qualifier>
+										<Qualifier BacklogActivityId="0" Documentation_plain="" Id="jwsQX8GGAqBwAQ8G" Name="" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:13:45.329" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+									</Qualifier>
+									<Type>
+										<UseCase Idref="V5fc78GA0HX.rQlr" Name="Sprawdzenie stanu rezerwacji"/>
+									</Type>
+								</AssociationEnd>
+							</ToEnd>
+							<MasterView>
+								<Association Idref="w4sQX8GGAqBwAQ8H"/>
+							</MasterView>
+						</Association>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+				<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="8mW878GA0HX.rQnw" Name="Include" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:12:36.175" PmLastModified="2022-10-21T11:57:12.791" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<ModelChildren>
+						<Include BacklogActivityId="0" Documentation_plain="" From="az_s78GA0HX.rQij" Id="SWK878GA0HX.rQnW" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:12:11.666" PmLastModified="2022-10-20T23:17:38.789" QualityReason_IsNull="true" QualityScore="-1" To="Rcmc78GA0HX.rQjh" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="KWK878GA0HX.rQnX" Name="Include"/>
+							</Stereotypes>
+							<MasterView>
+								<Include Idref="rWK878GA0HX.rQnY"/>
+							</MasterView>
+						</Include>
+						<Include BacklogActivityId="0" Documentation_plain="" From="Ezvvn8GGAqBwAQx9" Id="J_yfn8GGAqBwAQzj" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:45.156" PmLastModified="2022-10-21T11:57:12.787" QualityReason_IsNull="true" QualityScore="-1" To="Fx8fn8GGAqBwAQzP" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="KWK878GA0HX.rQnX" Name="Include"/>
+							</Stereotypes>
+							<MasterView>
+								<Include Idref="wgKfn8GGAqBwAQzk"/>
+							</MasterView>
+						</Include>
+						<Include BacklogActivityId="0" Documentation_plain="" From="Ql2c78GA0HX.rQj1" Id="PYqfn8GGAqBwAQzn" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:49.724" PmLastModified="2022-10-21T11:57:12.787" QualityReason_IsNull="true" QualityScore="-1" To="Fx8fn8GGAqBwAQzP" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="KWK878GA0HX.rQnX" Name="Include"/>
+							</Stereotypes>
+							<MasterView>
+								<Include Idref="qEqfn8GGAqBwAQzo"/>
+							</MasterView>
+						</Include>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+				<ModelRelationshipContainer BacklogActivityId="0" Documentation_plain="" Id="kSJ878GA0HX.rQoN" Name="Extend" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:13:16.681" PmLastModified="2022-10-21T12:02:00.606" QualityReason_IsNull="true" QualityScore="-1" UserIDLastNumericValue="0" UserID_IsNull="true">
+					<ModelChildren>
+						<Extend BacklogActivityId="0" Condition_IsNull="true" Documentation_plain="" From="Lruc78GA0HX.rQkJ" Id="crh878GA0HX.rQoH" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:13:06.638" PmLastModified="2022-10-21T11:34:18.847" QualityReason_IsNull="true" QualityScore="-1" To="Rcmc78GA0HX.rQjh" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="Ua.878GA0HX.rQn2" Name="Extend"/>
+							</Stereotypes>
+							<ExtensionPoint>
+								<ExtensionPoint BacklogActivityId="0" Documentation_plain="" Id="8rh878GA0HX.rQoI" Name="Sprawdzenie wolnych pokoi" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:13:06.639" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ExtensionPoint>
+							<MasterView>
+								<Extend Idref="Brh878GA0HX.rQoJ"/>
+							</MasterView>
+						</Extend>
+						<Extend BacklogActivityId="0" Condition_IsNull="true" Documentation_plain="" From="Rcmc78GA0HX.rQjh" Id="jQ4nn8GGAqBwAQna" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:34:01.393" PmLastModified="2022-10-21T11:34:32.824" QualityReason_IsNull="true" QualityScore="-1" To="FVXHn8GGAqBwAQmw" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="Ua.878GA0HX.rQn2" Name="Extend"/>
+							</Stereotypes>
+							<ExtensionPoint>
+								<ExtensionPoint BacklogActivityId="0" Documentation_plain="" Id="TQ4nn8GGAqBwAQnb" Name="Proponuj inny pokój" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:34:01.394" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ExtensionPoint>
+							<MasterView>
+								<Extend Idref="ho4nn8GGAqBwAQnc"/>
+							</MasterView>
+						</Extend>
+						<Extend BacklogActivityId="0" Condition_IsNull="true" Documentation_plain="" From="Rcmc78GA0HX.rQjh" Id="w22_n8GGAqBwAQ3U" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:37.731" PmLastModified="2022-10-21T12:05:50.604" QualityReason_IsNull="true" QualityScore="-1" To="87y_n8GGAqBwAQ28" UserIDLastNumericValue="0" UserID_IsNull="true" Visibility="Unspecified">
+							<Stereotypes>
+								<Stereotype Idref="Ua.878GA0HX.rQn2" Name="Extend"/>
+							</Stereotypes>
+							<ExtensionPoint>
+								<ExtensionPoint BacklogActivityId="0" Documentation_plain="" Id="w22_n8GGAqBwAQ3V" Name="Zarezerwuj pokój" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:37.731" PmLastModified_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" SequenceNumber="-1" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+							</ExtensionPoint>
+							<MasterView>
+								<Extend Idref="du2_n8GGAqBwAQ3W"/>
+							</MasterView>
+						</Extend>
+					</ModelChildren>
+				</ModelRelationshipContainer>
+			</ModelChildren>
+		</ModelRelationshipContainer>
+		<Actor Abstract="false" BacklogActivityId="0" BusinessModel="false" Complexity_IsNull="true" Documentation_plain="" FinalSpecialization="false" FontSize="0" Goals_IsNull="true" Id="C5js78GA0HX.rQho" Leaf="false" Name="Klient" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:05:26.992" PmLastModified="2022-10-21T12:15:37.365" QualityReason_IsNull="true" QualityScore="-1" Root="false" UserID="AC01" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Actor Idref="C5js78GA0HX.rQhn" Name="Klient"/>
+			</MasterView>
+		</Actor>
+		<Actor Abstract="false" BacklogActivityId="0" BusinessModel="false" Complexity_IsNull="true" Documentation_plain="" FinalSpecialization="false" FontSize="0" Goals_IsNull="true" Id="Jbjs78GA0HX.rQhx" Leaf="false" Name="Pracownik" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:05:27.972" PmLastModified="2022-10-20T23:11:49.373" QualityReason_IsNull="true" QualityScore="-1" Root="false" UserID="AC02" UserIDLastNumericValue="0" Visibility="public">
+			<MasterView>
+				<Actor Idref="Jbjs78GA0HX.rQhw" Name="Pracownik"/>
+			</MasterView>
+		</Actor>
+		<Stereotype Abstract="false" BacklogActivityId="0" BaseType="Include" Documentation_plain="" IconPath_IsNull="true" Id="KWK878GA0HX.rQnX" Leaf="false" Name="Include" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:12:11.668" PmLastModified="2022-10-20T23:12:36.178" QualityReason_IsNull="true" QualityScore="-1" Root="false" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<Stereotype Abstract="false" BacklogActivityId="0" BaseType="Extend" Documentation_plain="" IconPath_IsNull="true" Id="Ua.878GA0HX.rQn2" Leaf="false" Name="Extend" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:12:56.458" PmLastModified="2022-10-20T23:13:16.685" QualityReason_IsNull="true" QualityScore="-1" Root="false" UserIDLastNumericValue="0" UserID_IsNull="true"/>
+		<System Abstract="false" BacklogActivityId="0" Documentation_plain="" Id="TgsC78GA0HX.rQqE" Leaf="false" Name="Rezerwacje" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:16:03.570" PmLastModified="2022-10-21T11:55:33.362" QualityReason_IsNull="true" QualityScore="-1" Root="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+			<MasterView>
+				<System Idref="TgsC78GA0HX.rQqD" Name="Rezerwacje"/>
+			</MasterView>
+			<ModelChildren>
+				<UseCase Abstract="false" BacklogActivityId="0" BusinessModel="false" ContextName_IsNull="true" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      PRZEBIEG:&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. Nale&amp;#380;y poda&amp;#263; oczekiwane atrybuty pokoju: liczba os&amp;#243;b, okres &#13;&#10;      pobytu, okre&amp;#347;lony hotel.&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. Nale&amp;#380;y wywo&amp;#322;a&amp;#263; PU Sprawdzenie wolnych pokoi.&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="PRZEBIEG:&#10;        1. Należy podać oczekiwane atrybuty pokoju: liczba osób, okres pobytu, określony hotel.&#10;        2. Należy wywołać PU Sprawdzenie wolnych pokoi." Id="az_s78GA0HX.rQij" Justification="" Leaf="false" Name="Rezerwacja pokoju" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:06:25.110" PmLastModified="2022-10-28T11:44:40.928" PostConditions_IsNull="true" PreConditions_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" TaskPoolName_IsNull="true" TemplateName_IsNull="true" TestingConfig_IsNull="true" TestingSetup_IsNull="true" UcRank="Medium" UseCaseDescriptionDiagramId="6ykp3WiA0HX.rQij" UserID="UC01" UserIDLastNumericValue="0">
+					<Stereotypes>
+						<Stereotype Idref="DrwBq8GGAqBwAQfL" Name="UseCase"/>
+					</Stereotypes>
+					<TaggedValues>
+						<TaggedValueContainer CustomizedOrdering="false" Id="mz_s78GA0HX.rQik" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+							<ModelChildren>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="mz_s78GA0HX.rQil" Multiplicity="Unspecified" Name="Level" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:06:25.113" PmLastModified="2022-10-21T11:39:33.188" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="zrwBq8GGAqBwAQfN" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="User"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="2z_s78GA0HX.rQim" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:06:25.115" PmLastModified="2022-10-21T11:39:33.188" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="LrwBq8GGAqBwAQfO" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Medium"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Oz_s78GA0HX.rQin" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:06:25.116" PmLastModified="2022-10-21T11:39:49.860" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="rrwBq8GGAqBwAQfP" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Complete"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Oz_s78GA0HX.rQio" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:06:25.116" PmLastModified="2022-10-21T11:39:49.860" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="brwBq8GGAqBwAQfQ" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Scheduled"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="uz_s78GA0HX.rQip" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:06:25.117" PmLastModified="2022-10-21T11:48:39.351" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="7rwBq8GGAqBwAQfR" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="\u0002eoAVq8GGAqBwAQl9\u0002\u0002i_2Bq8GGAqBwAQk4\u0002\u0002RnMVq8GGAqBwAQm2\u0002Inicjalizacja poprzez punkt w menu"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="uz_s78GA0HX.rQiq" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:06:25.117" PmLastModified="2022-10-21T11:42:22.341" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfS" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Rezerwacja pokoju o podanych atrybutach: liczba osób, okres pobytu, określony hotel."/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="uz_s78GA0HX.rQir" Multiplicity="Unspecified" Name="Author" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:06:25.117" PmLastModified="2022-10-21T11:42:22.341" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfT" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Dmitry Goltstein, Filip Cebulski"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="ez_s78GA0HX.rQis" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:06:25.118" PmLastModified="2022-10-20T23:06:49.910" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="nrwBq8GGAqBwAQfU" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+							</ModelChildren>
+						</TaggedValueContainer>
+					</TaggedValues>
+					<PrimaryActors>
+						<Actor Idref="C5js78GA0HX.rQho" Name="Klient"/>
+						<Actor Idref="Jbjs78GA0HX.rQhx" Name="Pracownik"/>
+					</PrimaryActors>
+					<FromSimpleRelationships>
+						<Include Idref="SWK878GA0HX.rQnW" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<UseCase Idref="Kz_s78GA0HX.rQii" Name="Rezerwacja pokoju"/>
+					</MasterView>
+				</UseCase>
+				<UseCase Abstract="false" BacklogActivityId="0" BusinessModel="false" ContextName_IsNull="true" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      PRZEBIEG:&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. Nale&amp;#380;y poda&amp;#263; numer identyfikacyjny rezerwacji.&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. Nale&amp;#380;y wywo&amp;#322;a&amp;#263; PU Zwolnij pok&amp;#243;j. Po zwolnieniu pokoju nale&amp;#380;y &#13;&#10;      zako&amp;#324;czy&amp;#263; PU.&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="PRZEBIEG:&#10;        1. Należy podać numer identyfikacyjny rezerwacji.&#10;        2. Należy wywołać PU Zwolnij pokój. Po zwolnieniu pokoju należy zakończyć PU." Id="Ql2c78GA0HX.rQj1" Justification="" Leaf="false" Name="Anulowanie rezerwacji" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:19.138" PmLastModified="2022-10-21T12:22:03.511" PostConditions_IsNull="true" PreConditions_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" TaskPoolName_IsNull="true" TemplateName_IsNull="true" TestingConfig_IsNull="true" TestingSetup_IsNull="true" UcRank="Unspecified" UseCaseDescriptionDiagramId="wkpp3WiA0HX.rQj1" UserID="UC03" UserIDLastNumericValue="0">
+					<Stereotypes>
+						<Stereotype Idref="DrwBq8GGAqBwAQfL" Name="UseCase"/>
+					</Stereotypes>
+					<TaggedValues>
+						<TaggedValueContainer CustomizedOrdering="false" Id="Ql2c78GA0HX.rQj2" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+							<ModelChildren>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Ql2c78GA0HX.rQj3" Multiplicity="Unspecified" Name="Level" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:19.138" PmLastModified="2022-10-21T11:45:26.993" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="zrwBq8GGAqBwAQfN" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="User"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Il2c78GA0HX.rQj4" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:19.140" PmLastModified="2022-10-21T11:45:26.993" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="LrwBq8GGAqBwAQfO" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Medium"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Il2c78GA0HX.rQj5" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:19.140" PmLastModified="2022-10-21T11:45:26.993" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="rrwBq8GGAqBwAQfP" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Complete"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="ol2c78GA0HX.rQj6" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:19.141" PmLastModified="2022-10-21T11:45:26.993" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="brwBq8GGAqBwAQfQ" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Scheduled"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="ol2c78GA0HX.rQj7" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:19.141" PmLastModified="2022-10-21T12:22:03.511" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="7rwBq8GGAqBwAQfR" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="\u0002i_2Bq8GGAqBwAQk4\u0002\u00022HE1q8GGAqBwAQoM\u0002Inicjalizowane ze strony przeglądu rezerwacji"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="ol2c78GA0HX.rQj8" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:19.141" PmLastModified="2022-10-21T11:48:12.730" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfS" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Rezerwacja zwalnia pokój o określonym numerze identyfikacyjnym w danym okresie."/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Yl2c78GA0HX.rQj9" Multiplicity="Unspecified" Name="Author" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:19.142" PmLastModified="2022-10-21T11:48:12.730" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfT" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Dmitry Goltstein, Filip Cebulski"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Yl2c78GA0HX.rQj." Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:19.142" PmLastModified="2022-10-20T23:08:38.222" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="nrwBq8GGAqBwAQfU" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+							</ModelChildren>
+						</TaggedValueContainer>
+					</TaggedValues>
+					<PrimaryActors>
+						<Actor Idref="Jbjs78GA0HX.rQhx" Name="Pracownik"/>
+					</PrimaryActors>
+					<FromSimpleRelationships>
+						<Include Idref="PYqfn8GGAqBwAQzn" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<UseCase Idref="Ql2c78GA0HX.rQj0" Name="Anulowanie rezerwacji"/>
+					</MasterView>
+				</UseCase>
+				<UseCase Abstract="false" BacklogActivityId="0" BusinessModel="false" ContextName_IsNull="true" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      PRZEBIEG:&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1.Nale&amp;#380;y poda&amp;#263; numer identyfikacyjny rezerwacji.&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="PRZEBIEG:&#10;        1.Należy podać numer identyfikacyjny rezerwacji." Id="V5fc78GA0HX.rQlr" Justification="" Leaf="false" Name="Sprawdzenie stanu rezerwacji" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:10:42.410" PmLastModified="2022-10-21T12:18:37.261" PostConditions_IsNull="true" PreConditions_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" TaskPoolName_IsNull="true" TemplateName_IsNull="true" TestingConfig_IsNull="true" TestingSetup_IsNull="true" UcRank="Unspecified" UseCaseDescriptionDiagramId="14EZ3WiA0HX.rQlr" UserID="UC05" UserIDLastNumericValue="0">
+					<Stereotypes>
+						<Stereotype Idref="DrwBq8GGAqBwAQfL" Name="UseCase"/>
+					</Stereotypes>
+					<TaggedValues>
+						<TaggedValueContainer CustomizedOrdering="false" Id="15fc78GA0HX.rQls" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+							<ModelChildren>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="15fc78GA0HX.rQlt" Multiplicity="Unspecified" Name="Level" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:10:42.411" PmLastModified="2022-10-21T12:15:37.365" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="zrwBq8GGAqBwAQfN" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="User"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="15fc78GA0HX.rQlu" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:10:42.411" PmLastModified="2022-10-21T12:16:22.246" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="LrwBq8GGAqBwAQfO" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Medium"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="N5fc78GA0HX.rQlv" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:10:42.412" PmLastModified="2022-10-21T12:16:22.246" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="rrwBq8GGAqBwAQfP" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Complete"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="N5fc78GA0HX.rQlw" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:10:42.412" PmLastModified="2022-10-21T12:16:22.246" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="brwBq8GGAqBwAQfQ" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Scheduled"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="N5fc78GA0HX.rQlx" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:10:42.412" PmLastModified="2022-10-21T12:17:02.097" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="7rwBq8GGAqBwAQfR" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="\u0002eoAVq8GGAqBwAQl9\u0002\u0002i_2Bq8GGAqBwAQk4\u0002\u0002yqwNq8GGAqBwAQpv\u0002Inicjalizowanie z punktu w menu"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="t5fc78GA0HX.rQly" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:10:42.413" PmLastModified="2022-10-21T12:18:37.261" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfS" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Wypisz atrybuty przypisane do danej rezerwacji."/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="t5fc78GA0HX.rQlz" Multiplicity="Unspecified" Name="Author" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:10:42.413" PmLastModified="2022-10-21T12:18:37.261" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfT" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Dmitry Goltstein, Filip Cebulski"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="d5fc78GA0HX.rQl0" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:10:42.414" PmLastModified="2022-10-20T23:11:05.163" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="nrwBq8GGAqBwAQfU" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+							</ModelChildren>
+						</TaggedValueContainer>
+					</TaggedValues>
+					<PrimaryActors>
+						<Actor Idref="Jbjs78GA0HX.rQhx" Name="Pracownik"/>
+						<Actor Idref="C5js78GA0HX.rQho" Name="Klient"/>
+					</PrimaryActors>
+					<MasterView>
+						<UseCase Idref="V5fc78GA0HX.rQlq" Name="Sprawdzenie stanu rezerwacji"/>
+					</MasterView>
+				</UseCase>
+				<UseCase Abstract="false" BacklogActivityId="0" BusinessModel="false" ContextName_IsNull="true" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      PRZEBIEG:&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. Nale&amp;#380;y poda&amp;#263; numer identyfikacyjny rezerwacji oraz &#13;&#10;      modyfikowane atrybuty. Mo&amp;#380;na zmodyfikowa&amp;#263;: dat&amp;#281;, liczb&amp;#281; os&amp;#243;b, us&amp;#322;ugi &#13;&#10;      dodatkowe, hotel.&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. W przypadku, gdy u&amp;#380;ytkownik chce zmodyfikowa&amp;#263; okres, liczb&amp;#281; &#13;&#10;      os&amp;#243;b lub hotel nale&amp;#380;y wywo&amp;#322;a&amp;#263; PU Sprawdzenie wolnych pokoi.&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="PRZEBIEG:&#10;        1. Należy podać numer identyfikacyjny rezerwacji oraz modyfikowane atrybuty. Można zmodyfikować: datę, liczbę osób, usługi dodatkowe, hotel.&#10;        2. W przypadku, gdy użytkownik chce zmodyfikować okres, liczbę osób lub hotel należy wywołać PU Sprawdzenie wolnych pokoi." Id="Lruc78GA0HX.rQkJ" Justification="" Leaf="false" Name="Modyfikacja rezerwacji" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:28.148" PmLastModified="2022-10-21T12:17:14.854" PostConditions_IsNull="true" PreConditions_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" TaskPoolName_IsNull="true" TemplateName_IsNull="true" TestingConfig_IsNull="true" TestingSetup_IsNull="true" UcRank="Medium" UseCaseDescriptionDiagramId="rq5p3WiA0HX.rQkJ" UserID="UC04" UserIDLastNumericValue="0">
+					<Stereotypes>
+						<Stereotype Idref="DrwBq8GGAqBwAQfL" Name="UseCase"/>
+					</Stereotypes>
+					<TaggedValues>
+						<TaggedValueContainer CustomizedOrdering="false" Id="rruc78GA0HX.rQkK" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+							<ModelChildren>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="rruc78GA0HX.rQkL" Multiplicity="Unspecified" Name="Level" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:28.149" PmLastModified="2022-10-21T11:51:54.542" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="zrwBq8GGAqBwAQfN" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="User"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="bruc78GA0HX.rQkM" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:28.150" PmLastModified="2022-10-21T11:51:54.542" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="LrwBq8GGAqBwAQfO" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Medium"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="bruc78GA0HX.rQkN" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:28.150" PmLastModified="2022-10-21T11:51:54.542" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="rrwBq8GGAqBwAQfP" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Complete"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="bruc78GA0HX.rQkO" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:28.150" PmLastModified="2022-10-21T11:51:54.542" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="brwBq8GGAqBwAQfQ" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Scheduled"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="bruc78GA0HX.rQkP" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:28.150" PmLastModified="2022-10-21T12:17:14.854" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="7rwBq8GGAqBwAQfR" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="\u0002eoAVq8GGAqBwAQl9\u0002\u0002i_2Bq8GGAqBwAQk4\u0002\u0002zGp1q8GGAqBwAQpB\u0002Inicjalizowane ze strony przeglądu rezerwacji"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="bruc78GA0HX.rQkQ" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:28.150" PmLastModified="2022-10-21T11:52:46.125" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfS" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Modyfikacja rezerwacji o określonym numerze identyfikacyjnym. "/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="7ruc78GA0HX.rQkR" Multiplicity="Unspecified" Name="Author" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:28.151" PmLastModified="2022-10-20T23:08:38.220" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfT" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="7ruc78GA0HX.rQkS" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:28.151" PmLastModified="2022-10-20T23:08:38.220" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="nrwBq8GGAqBwAQfU" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+							</ModelChildren>
+						</TaggedValueContainer>
+					</TaggedValues>
+					<PrimaryActors>
+						<Actor Idref="C5js78GA0HX.rQho" Name="Klient"/>
+						<Actor Idref="Jbjs78GA0HX.rQhx" Name="Pracownik"/>
+					</PrimaryActors>
+					<FromSimpleRelationships>
+						<Extend Idref="crh878GA0HX.rQoH" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<UseCase Idref="Lruc78GA0HX.rQkI" Name="Modyfikacja rezerwacji"/>
+					</MasterView>
+				</UseCase>
+				<UseCase Abstract="false" BacklogActivityId="0" BusinessModel="false" ContextName_IsNull="true" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      PRZEBIEG:&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. &amp;nbsp;Nale&amp;#380;y poda&amp;#263; numer rezerwacji&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. Klient musi potwierdzi&amp;#263; swoj&amp;#261; to&amp;#380;samo&amp;#347;&amp;#263;&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3. Nale&amp;#380;y wywo&amp;#322;a&amp;#263; PU Zwolnij pok&amp;#243;j. Po zwolnieniu pokoju nale&amp;#380;y &#13;&#10;      zako&amp;#324;czy&amp;#263; PU.&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="PRZEBIEG:&#10;        1.  Należy podać numer rezerwacji&#10;        2. Klient musi potwierdzić swoją tożsamość&#10;        3. Należy wywołać PU Zwolnij pokój. Po zwolnieniu pokoju należy zakończyć PU." Id="Ezvvn8GGAqBwAQx9" Justification="" Leaf="false" Name="Rezygnacja z rezerwacji" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:55:14.248" PmLastModified="2022-10-21T12:24:41.158" PostConditions_IsNull="true" PreConditions_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" TaskPoolName_IsNull="true" TemplateName_IsNull="true" TestingConfig_IsNull="true" TestingSetup_IsNull="true" UcRank="Unspecified" UseCaseDescriptionDiagramId="ky4qfWiGAqBwAQx9" UserID="UC08" UserIDLastNumericValue="0">
+					<Stereotypes>
+						<Stereotype Idref="DrwBq8GGAqBwAQfL" Name="UseCase"/>
+					</Stereotypes>
+					<TaggedValues>
+						<TaggedValueContainer CustomizedOrdering="false" Id="Ezvvn8GGAqBwAQx." Name="" SubLevelTaggedValueCustomizedOrdering="false">
+							<ModelChildren>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Ezvvn8GGAqBwAQx_" Multiplicity="Unspecified" Name="Level" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:55:14.248" PmLastModified="2022-10-21T12:21:51.071" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="zrwBq8GGAqBwAQfN" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="User"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Ezvvn8GGAqBwAQyA" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:55:14.248" PmLastModified="2022-10-21T12:21:51.071" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="LrwBq8GGAqBwAQfO" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Medium"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Ezvvn8GGAqBwAQyB" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:55:14.248" PmLastModified="2022-10-21T12:21:51.071" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="rrwBq8GGAqBwAQfP" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Complete"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Ezvvn8GGAqBwAQyC" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:55:14.248" PmLastModified="2022-10-21T12:21:51.071" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="brwBq8GGAqBwAQfQ" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Scheduled"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Mzvvn8GGAqBwAQyD" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:55:14.252" PmLastModified="2022-10-21T12:23:25.786" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="7rwBq8GGAqBwAQfR" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="\u0002eoAVq8GGAqBwAQl9\u0002\u0002zoTVq8GGAqBwAQns\u0002Inicjalizacja przez ekran zarządzania rezerwacją."/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Mzvvn8GGAqBwAQyE" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:55:14.252" PmLastModified="2022-10-21T12:24:41.158" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfS" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Do rezygnacji z rezerwacji jest potrzebne potwierdzenie tożsamości, potem zarezerwowany pokój jest zwalniany."/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Mzvvn8GGAqBwAQyF" Multiplicity="Unspecified" Name="Author" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:55:14.252" PmLastModified="2022-10-21T12:24:41.158" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfT" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Dmitry Goltstein, Filip Cebulski"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Mzvvn8GGAqBwAQyG" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:55:14.252" PmLastModified="2022-10-21T11:55:33.370" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="nrwBq8GGAqBwAQfU" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+							</ModelChildren>
+						</TaggedValueContainer>
+					</TaggedValues>
+					<PrimaryActors>
+						<Actor Idref="C5js78GA0HX.rQho" Name="Klient"/>
+					</PrimaryActors>
+					<FromSimpleRelationships>
+						<Include Idref="J_yfn8GGAqBwAQzj" Name=""/>
+					</FromSimpleRelationships>
+					<MasterView>
+						<UseCase Idref="Ezvvn8GGAqBwAQx8" Name="Rezygnacja z rezerwacji"/>
+					</MasterView>
+				</UseCase>
+			</ModelChildren>
+		</System>
+		<System Abstract="false" BacklogActivityId="0" Documentation_plain="" Id="nG6C78GA0HX.rQqr" Leaf="false" Name="Pokoje" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:16:46.009" PmLastModified="2022-10-21T12:01:29.207" QualityReason_IsNull="true" QualityScore="-1" Root="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+			<MasterView>
+				<System Idref="nG6C78GA0HX.rQqq" Name="Pokoje"/>
+			</MasterView>
+			<ModelChildren>
+				<UseCase Abstract="false" BacklogActivityId="0" BusinessModel="false" ContextName_IsNull="true" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      PRZEBIEG:&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. Sprawdzenie pokoi przebiega wed&amp;#322;ug atrybut&amp;#243;w: ilo&amp;#347;ci os&amp;#243;b, &#13;&#10;      daty pobytu oraz okre&amp;#347;lonego hotelu.&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. Je&amp;#380;eli nie istnieje taki pok&amp;#243;j, nale&amp;#380;y wywo&amp;#322;a&amp;#263; PU Proponuj &#13;&#10;      inny pok&amp;#243;j&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;3. Je&amp;#380;eli istnieje, zaproponuj rezerwacj&amp;#281;. W razie akceptacji, &#13;&#10;      nale&amp;#380;y wywo&amp;#322;a&amp;#263; PU Zarezerwuj pok&amp;#243;j&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="PRZEBIEG:&#10;        1. Sprawdzenie pokoi przebiega według atrybutów: ilości osób, daty pobytu oraz określonego hotelu.&#10;        2. Jeżeli nie istnieje taki pokój, należy wywołać PU Proponuj inny pokój&#10;        3. Jeżeli istnieje, zaproponuj rezerwację. W razie akceptacji, należy wywołać PU Zarezerwuj pokój" Id="Rcmc78GA0HX.rQjh" Justification="" Leaf="false" Name="Sprawdzenie wolnych pokoi" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:09.250" PmLastModified="2022-10-28T11:43:50.261" PostConditions_IsNull="true" PreConditions_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" TaskPoolName_IsNull="true" TemplateName_IsNull="true" TestingConfig_IsNull="true" TestingSetup_IsNull="true" UcRank="Medium" UseCaseDescriptionDiagramId="xdRp3WiA0HX.rQjh" UserID="UC02" UserIDLastNumericValue="0">
+					<Stereotypes>
+						<Stereotype Idref="DrwBq8GGAqBwAQfL" Name="UseCase"/>
+					</Stereotypes>
+					<TaggedValues>
+						<TaggedValueContainer CustomizedOrdering="false" Id="xcmc78GA0HX.rQji" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+							<ModelChildren>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="xcmc78GA0HX.rQjj" Multiplicity="Unspecified" Name="Level" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:09.251" PmLastModified="2022-10-28T11:19:14.891" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="zrwBq8GGAqBwAQfN" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Subfunction"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Jcmc78GA0HX.rQjk" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:09.252" PmLastModified="2022-10-28T11:19:14.895" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="LrwBq8GGAqBwAQfO" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Medium"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Jcmc78GA0HX.rQjl" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:09.252" PmLastModified="2022-10-28T11:19:14.895" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="rrwBq8GGAqBwAQfP" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Complete"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Jcmc78GA0HX.rQjm" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:09.252" PmLastModified="2022-10-28T11:19:14.895" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="brwBq8GGAqBwAQfQ" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Scheduled"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="pcmc78GA0HX.rQjn" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:09.253" PmLastModified="2022-10-28T11:43:00.581" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="7rwBq8GGAqBwAQfR" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Parametry przekazywane są z PU. Może być wywołany z PU Modyfikacja rezerwacji i musi zostać wywołany z PU Rezerwacja pokoju&#10;\u0002TgsC78GA0HX.rQqE:Lruc78GA0HX.rQkJ\u0002\u0002TgsC78GA0HX.rQqE:az_s78GA0HX.rQij\u0002&#10;\u0002zGp1q8GGAqBwAQpB\u0002\u0002RnMVq8GGAqBwAQm2\u0002&#10;\u0002i_2Bq8GGAqBwAQk4\u0002&#10;\u0002eoAVq8GGAqBwAQl9\u0002"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="pcmc78GA0HX.rQjo" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:09.253" PmLastModified="2022-10-28T11:43:50.261" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfS" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Sprawdzenie wolnych pokoi na podstawie przekazanych parametrów."/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="pcmc78GA0HX.rQjp" Multiplicity="Unspecified" Name="Author" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:09.253" PmLastModified="2022-10-28T11:30:31.384" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfT" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Dmitry Goltstein, Filip Cebulski"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Zcmc78GA0HX.rQjq" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:08:09.254" PmLastModified="2022-10-20T23:08:38.223" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="nrwBq8GGAqBwAQfU" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+							</ModelChildren>
+						</TaggedValueContainer>
+					</TaggedValues>
+					<FromSimpleRelationships>
+						<Extend Idref="jQ4nn8GGAqBwAQna" Name=""/>
+						<Extend Idref="w22_n8GGAqBwAQ3U" Name=""/>
+					</FromSimpleRelationships>
+					<ToSimpleRelationships>
+						<Include Idref="SWK878GA0HX.rQnW" Name=""/>
+						<Extend Idref="crh878GA0HX.rQoH" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<UseCase Idref="Bcmc78GA0HX.rQjg" Name="Sprawdzenie wolnych pokoi"/>
+					</MasterView>
+				</UseCase>
+				<UseCase Abstract="false" BacklogActivityId="0" BusinessModel="false" ContextName_IsNull="true" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      PRZEBIEG:&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. Szukanie pokoju przebiega wed&amp;#322;ug atrybut&amp;#243;w: data pobytu oraz &#13;&#10;      ilo&amp;#347;&amp;#263; os&amp;#243;b.&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. Je&amp;#347;li istnieje pok&amp;#243;j o podanych atrybutach, zwracamy pok&amp;#243;j, &#13;&#10;      je&amp;#347;li nie, zwracamy komunikat o braku pokoi o podanych kryteriach&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="PRZEBIEG:&#10;        1. Szukanie pokoju przebiega według atrybutów: data pobytu oraz ilość osób.&#10;        2. Jeśli istnieje pokój o podanych atrybutach, zwracamy pokój, jeśli nie, zwracamy komunikat o braku pokoi o podanych kryteriach" Id="FVXHn8GGAqBwAQmw" Justification="" Leaf="false" Name="Proponuj inny pokój" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:33:10.696" PmLastModified="2022-10-28T11:30:31.380" PostConditions_IsNull="true" PreConditions_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" TaskPoolName_IsNull="true" TemplateName_IsNull="true" TestingConfig_IsNull="true" TestingSetup_IsNull="true" UcRank="Unspecified" UseCaseDescriptionDiagramId="lUICfWiGAqBwAQmw" UserID="UC07" UserIDLastNumericValue="0">
+					<Stereotypes>
+						<Stereotype Idref="DrwBq8GGAqBwAQfL" Name="UseCase"/>
+					</Stereotypes>
+					<TaggedValues>
+						<TaggedValueContainer CustomizedOrdering="false" Id="VVXHn8GGAqBwAQmx" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+							<ModelChildren>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="VVXHn8GGAqBwAQmy" Multiplicity="Unspecified" Name="Level" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:33:10.698" PmLastModified="2022-10-28T11:23:29.830" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="zrwBq8GGAqBwAQfN" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Subfunction"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="VVXHn8GGAqBwAQmz" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:33:10.698" PmLastModified="2022-10-28T11:23:29.830" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="LrwBq8GGAqBwAQfO" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Medium"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="1VXHn8GGAqBwAQm0" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:33:10.699" PmLastModified="2022-10-28T11:23:29.830" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="rrwBq8GGAqBwAQfP" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Complete"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="1VXHn8GGAqBwAQm1" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:33:10.699" PmLastModified="2022-10-28T11:23:29.830" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="brwBq8GGAqBwAQfQ" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Scheduled"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="NVXHn8GGAqBwAQm2" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:33:10.700" PmLastModified="2022-10-28T11:24:52.094" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="7rwBq8GGAqBwAQfR" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Może być wywołany z PU Sprawdzenie wolnych pokoi&#10;\u0002nG6C78GA0HX.rQqr:Rcmc78GA0HX.rQjh\u0002&#10;\u0002eoAVq8GGAqBwAQl9\u0002&#10;\u0002i_2Bq8GGAqBwAQk4\u0002"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="NVXHn8GGAqBwAQm3" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:33:10.700" PmLastModified="2022-10-28T11:29:03.746" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfS" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="podanie pokoju o podanych atrybutach: data pobytu oraz ilość osób lub komunikat o braku podobnych pokoi "/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="NVXHn8GGAqBwAQm4" Multiplicity="Unspecified" Name="Author" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:33:10.700" PmLastModified="2022-10-28T11:30:31.380" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfT" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Dmitry Goltstein, Filip Cebulski"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="tVXHn8GGAqBwAQm5" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:33:10.701" PmLastModified="2022-10-21T11:33:20.952" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="nrwBq8GGAqBwAQfU" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+							</ModelChildren>
+						</TaggedValueContainer>
+					</TaggedValues>
+					<ToSimpleRelationships>
+						<Extend Idref="jQ4nn8GGAqBwAQna" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<UseCase Idref="FVXHn8GGAqBwAQmv" Name="Proponuj inny pokój"/>
+					</MasterView>
+				</UseCase>
+				<UseCase Abstract="false" BacklogActivityId="0" BusinessModel="false" ContextName_IsNull="true" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      PRZEBIEG:&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. Szukanie pokoju wed&amp;#322;ug numeru identyfikacyjnego oraz okresu.&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2. Je&amp;#380;eli istnieje pok&amp;#243;j o podanych atrybutach, pok&amp;#243;j jest &#13;&#10;      zwalniany&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="PRZEBIEG:&#10;        1. Szukanie pokoju według numeru identyfikacyjnego oraz okresu.&#10;        2. Jeżeli istnieje pokój o podanych atrybutach, pokój jest zwalniany" Id="Fx8fn8GGAqBwAQzP" Justification="" Leaf="false" Name="Zwolnij pokój" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:26.984" PmLastModified="2022-10-28T11:51:14.497" PostConditions_IsNull="true" PreConditions_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" TaskPoolName_IsNull="true" TemplateName_IsNull="true" TestingConfig_IsNull="true" TestingSetup_IsNull="true" UcRank="Unspecified" UseCaseDescriptionDiagramId="lwmqfWiGAqBwAQzP" UserID="UC09" UserIDLastNumericValue="0">
+					<Stereotypes>
+						<Stereotype Idref="DrwBq8GGAqBwAQfL" Name="UseCase"/>
+					</Stereotypes>
+					<TaggedValues>
+						<TaggedValueContainer CustomizedOrdering="false" Id="Fx8fn8GGAqBwAQzQ" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+							<ModelChildren>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Fx8fn8GGAqBwAQzR" Multiplicity="Unspecified" Name="Level" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:26.984" PmLastModified="2022-10-21T12:35:39.968" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="zrwBq8GGAqBwAQfN" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Subfunction"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Fx8fn8GGAqBwAQzS" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:26.984" PmLastModified="2022-10-21T12:30:42.392" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="LrwBq8GGAqBwAQfO" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Medium"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Fx8fn8GGAqBwAQzT" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:26.984" PmLastModified="2022-10-21T12:31:38.747" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="rrwBq8GGAqBwAQfP" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Complete"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Nx8fn8GGAqBwAQzU" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:26.988" PmLastModified="2022-10-21T12:31:38.747" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="brwBq8GGAqBwAQfQ" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Scheduled"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Nx8fn8GGAqBwAQzV" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:26.988" PmLastModified="2022-10-28T11:51:14.498" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="7rwBq8GGAqBwAQfR" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Numer identyfikacyjny rezerwacji jest przekazywany z PU. Musi być wywołany z PU Anulowanie rezerwacji lub PU Rezygnacja z rezerwacji&#10;\u0002TgsC78GA0HX.rQqE:Ezvvn8GGAqBwAQx9\u0002&#10;\u0002TgsC78GA0HX.rQqE:Ql2c78GA0HX.rQj1\u0002&#10;\u0002eoAVq8GGAqBwAQl9\u0002 \u0002i_2Bq8GGAqBwAQk4\u0002&#10;\u00022HE1q8GGAqBwAQoM\u0002 \u0002zoTVq8GGAqBwAQns\u0002"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Nx8fn8GGAqBwAQzW" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:26.988" PmLastModified="2022-10-21T12:33:48.450" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfS" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Szukanie pokoju według numeru identyfikacyjnego oraz okresu."/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Nx8fn8GGAqBwAQzX" Multiplicity="Unspecified" Name="Author" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:26.988" PmLastModified="2022-10-21T12:34:25.162" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfT" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Dmitry Goltstein, Filip Cebulski"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="Nx8fn8GGAqBwAQzY" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:56:26.988" PmLastModified="2022-10-21T11:56:37.200" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="nrwBq8GGAqBwAQfU" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+							</ModelChildren>
+						</TaggedValueContainer>
+					</TaggedValues>
+					<ToSimpleRelationships>
+						<Include Idref="J_yfn8GGAqBwAQzj" Name=""/>
+						<Include Idref="PYqfn8GGAqBwAQzn" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<UseCase Idref="Fx8fn8GGAqBwAQzO" Name="Zwolnij pokój"/>
+					</MasterView>
+				</UseCase>
+				<UseCase Abstract="false" BacklogActivityId="0" BusinessModel="false" ContextName_IsNull="true" DescNameColumnWidth="0" DescValueColumnWidth="0" Documentation="&lt;head&gt;&#13;&#10;    &lt;style type=&quot;text/css&quot;&gt;&#10;      &lt;!--&#10;        body { color: #000000; font-family: Dialog; font-size: 12px }&#10;      --&gt;&#10;    &lt;/style&gt;&#13;&#10;    &#13;&#10;  &lt;/head&gt;&#13;&#10;  &lt;body&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      PRZEBIEG:&#13;&#10;    &lt;/p&gt;&#13;&#10;    &lt;p&gt;&#13;&#10;      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1. Rezerwacja pokoju przebiega wed&amp;#322;ug atrybut&amp;#243;w: numer &#13;&#10;      rezerwacji, okres, ilo&amp;#347;&amp;#263; os&amp;#243;b&#13;&#10;    &lt;/p&gt;&#13;&#10;  &lt;/body&gt;" Documentation_plain="PRZEBIEG:&#10;        1. Rezerwacja pokoju przebiega według atrybutów: numer rezerwacji, okres, ilość osób" Id="87y_n8GGAqBwAQ28" Justification="" Leaf="false" Name="Zarezerwuj pokój" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:06.767" PmLastModified="2022-10-28T11:46:24.521" PostConditions_IsNull="true" PreConditions_IsNull="true" QualityReason_IsNull="true" QualityScore="-1" Root="false" ScheduleRowHeight="24" Status="Identify" TaskPoolId="0" TaskPoolName_IsNull="true" TemplateName_IsNull="true" TestingConfig_IsNull="true" TestingSetup_IsNull="true" UcRank="Unspecified" UseCaseDescriptionDiagramId="C6uafWiGAqBwAQ28" UserID="UC10" UserIDLastNumericValue="0">
+					<Stereotypes>
+						<Stereotype Idref="DrwBq8GGAqBwAQfL" Name="UseCase"/>
+					</Stereotypes>
+					<TaggedValues>
+						<TaggedValueContainer CustomizedOrdering="false" Id="87y_n8GGAqBwAQ29" Name="" SubLevelTaggedValueCustomizedOrdering="false">
+							<ModelChildren>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="87y_n8GGAqBwAQ2." Multiplicity="Unspecified" Name="Level" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:06.767" PmLastModified="2022-10-21T12:35:39.960" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="zrwBq8GGAqBwAQfN" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Subfunction"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="87y_n8GGAqBwAQ2_" Multiplicity="Unspecified" Name="Complexity" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:06.767" PmLastModified="2022-10-21T12:37:48.693" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="LrwBq8GGAqBwAQfO" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Medium"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="87y_n8GGAqBwAQ3A" Multiplicity="Unspecified" Name="Use Case Status" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:06.767" PmLastModified="2022-10-21T12:37:48.693" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="rrwBq8GGAqBwAQfP" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Base"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="87y_n8GGAqBwAQ3B" Multiplicity="Unspecified" Name="Implementation Status" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:06.767" PmLastModified="2022-10-21T12:37:48.693" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="brwBq8GGAqBwAQfQ" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="2" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Scheduled"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="87y_n8GGAqBwAQ3C" Multiplicity="Unspecified" Name="Preconditions" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:06.767" PmLastModified="2022-10-28T11:16:27.562" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="7rwBq8GGAqBwAQfR" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Może być wywołany z PU Sprawdzenie wolnych pokoi&#10;\u0002TgsC78GA0HX.rQqE:az_s78GA0HX.rQij\u0002&#10;\u0002RnMVq8GGAqBwAQm2\u0002&#10;\u0002eoAVq8GGAqBwAQl9\u0002&#10;\u0002i_2Bq8GGAqBwAQk4\u0002"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="y7y_n8GGAqBwAQ3D" Multiplicity="Unspecified" Name="Post-conditions" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:06.771" PmLastModified="2022-10-28T11:46:24.521" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfS" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="dodanie rezerwacji na konto użytkownika oraz zmiana danych dostępności dla danego pokoju."/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="y7y_n8GGAqBwAQ3E" Multiplicity="Unspecified" Name="Author" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:06.771" PmLastModified="2022-10-28T11:30:31.376" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="HrwBq8GGAqBwAQfT" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value="Dmitry Goltstein, Filip Cebulski"/>
+								<TaggedValue ArchimatePropertyDefId_IsNull="true" BacklogActivityId="0" Documentation_plain="" HtmlValue_IsNull="true" Id="y7y_n8GGAqBwAQ3F" Multiplicity="Unspecified" Name="Assumptions" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:01:06.771" PmLastModified="2022-10-21T12:01:29.199" QualityReason_IsNull="true" QualityScore="-1" TagDefinition="nrwBq8GGAqBwAQfU" TagDefinitionStereotype="DrwBq8GGAqBwAQfL" Type="Multi-line Text" UserIDLastNumericValue="0" UserID_IsNull="true" Value=""/>
+							</ModelChildren>
+						</TaggedValueContainer>
+					</TaggedValues>
+					<ToSimpleRelationships>
+						<Extend Idref="w22_n8GGAqBwAQ3U" Name=""/>
+					</ToSimpleRelationships>
+					<MasterView>
+						<UseCase Idref="87y_n8GGAqBwAQ27" Name="Zarezerwuj pokój"/>
+					</MasterView>
+				</UseCase>
+			</ModelChildren>
+		</System>
+		<System Abstract="false" BacklogActivityId="0" Documentation_plain="" Id="FiuC78GA0HX.rQrG" Leaf="false" Name="Hotele" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:17:10.120" PmLastModified="2022-10-20T23:17:38.787" QualityReason_IsNull="true" QualityScore="-1" Root="false" UserIDLastNumericValue="0" UserID_IsNull="true">
+			<MasterView>
+				<System Idref="FiuC78GA0HX.rQrF" Name="Hotele"/>
+			</MasterView>
+		</System>
+	</Models>
+	<Diagrams>
+		<UseCaseDiagram AlignToGrid="false" AutoFitShapesSize="false" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="877" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="e0Fs78GA0HX.rQhU" ImageHeight="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="true" Maximized="true" ModelElementNameAlignment="4" Name="Diagram przypadków użycia" PaintConnectorThroughLabel="1" PmAuthor="Dima" PmCreateDateTime="2022-10-20T23:04:48.350" PmLastModified="2022-12-01T21:14:31.645" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowDefaultPackage="false" ShowDiagramFrame="true" ShowExtendCondition="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" ShowUseCaseExtensionPoint="true" ShowUseCaseId="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseDisplayOption="0" Width="1894" X="0" Y="0" ZoomRatio="1.0" _actorDisplayOption="0" _globalPaletteOption="true">
+			<Shapes>
+				<System Background="rgb(122, 207, 245)" CaptionAlignment="0" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="518" Id="nG6C78GA0HX.rQqq" MetaModelElement="nG6C78GA0HX.rQqr" Model="nG6C78GA0HX.rQqr" ModelElementNameAlignment="1" Name="Pokoje" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="262" X="950" Y="74" ZOrder="20">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="518" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="262" X="0" Y="0"/>
+					<DiagramElementChildren>
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="87y_n8GGAqBwAQ27" MetaModelElement="87y_n8GGAqBwAQ28" Model="87y_n8GGAqBwAQ28" ModelElementNameAlignment="9" Name="Zarezerwuj pokój" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="103" X="1030" Y="190" ZOrder="2">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="103" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</UseCase>
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="Fx8fn8GGAqBwAQzO" MetaModelElement="Fx8fn8GGAqBwAQzP" Model="Fx8fn8GGAqBwAQzP" ModelElementNameAlignment="9" Name="Zwolnij pokój" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="80" X="1041" Y="112" ZOrder="4">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="80" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</UseCase>
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="FVXHn8GGAqBwAQmv" MetaModelElement="FVXHn8GGAqBwAQmw" Model="FVXHn8GGAqBwAQmw" ModelElementNameAlignment="9" Name="Proponuj inny pokój" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="119" X="1022" Y="378" ZOrder="8">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="119" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</UseCase>
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="74" Id="Bcmc78GA0HX.rQjg" MetaModelElement="Rcmc78GA0HX.rQjh" Model="Rcmc78GA0HX.rQjh" ModelElementNameAlignment="9" Name="Sprawdzenie wolnych pokoi" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="214" X="974" Y="268" ZOrder="16">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="19" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="214" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</UseCase>
+					</DiagramElementChildren>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</System>
+				<Actor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" CreatorDiagramType="UseCaseDiagram" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="60" Id="Jbjs78GA0HX.rQhw" MetaModelElement="Jbjs78GA0HX.rQhx" Model="Jbjs78GA0HX.rQhx" ModelElementNameAlignment="9" Name="Pracownik" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="30" X="290" Y="371" ZOrder="22">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="South" Visible="true" Width="71" X="270" Y="431"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Actor>
+				<Actor Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" CreatorDiagramType="UseCaseDiagram" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="60" Id="C5js78GA0HX.rQhn" MetaModelElement="C5js78GA0HX.rQho" Model="C5js78GA0HX.rQho" ModelElementNameAlignment="9" Name="Klient" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="30" X="290" Y="156" ZOrder="24">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="South" Visible="true" Width="48" X="281" Y="216"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</Actor>
+				<System Background="rgb(122, 207, 245)" CaptionAlignment="0" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="518" Id="TgsC78GA0HX.rQqD" MetaModelElement="TgsC78GA0HX.rQqE" Model="TgsC78GA0HX.rQqE" ModelElementNameAlignment="1" Name="Rezerwacje" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="350" X="499" Y="74" ZOrder="26">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="518" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="350" X="0" Y="0"/>
+					<DiagramElementChildren>
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="Ezvvn8GGAqBwAQx8" MetaModelElement="Ezvvn8GGAqBwAQx9" Model="Ezvvn8GGAqBwAQx9" ModelElementNameAlignment="9" Name="Rezygnacja z rezerwacji" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="129" X="610" Y="112" ZOrder="6">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="129" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</UseCase>
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="V5fc78GA0HX.rQlq" MetaModelElement="V5fc78GA0HX.rQlr" Model="V5fc78GA0HX.rQlr" ModelElementNameAlignment="9" Name="Sprawdzenie stanu rezerwacji" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="157" X="596" Y="451" ZOrder="10">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="157" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</UseCase>
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="59" Id="Lruc78GA0HX.rQkI" MetaModelElement="Lruc78GA0HX.rQkJ" Model="Lruc78GA0HX.rQkJ" ModelElementNameAlignment="9" Name="Modyfikacja rezerwacji" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="201" X="574" Y="359" ZOrder="12">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="19" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="201" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</UseCase>
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="Ql2c78GA0HX.rQj0" MetaModelElement="Ql2c78GA0HX.rQj1" Model="Ql2c78GA0HX.rQj1" ModelElementNameAlignment="9" Name="Anulowanie rezerwacji" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="125" X="618" Y="200" ZOrder="14">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="125" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</UseCase>
+						<UseCase Background="rgb(122, 207, 245)" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" DisplayOption="3" Foreground="rgb(0, 0, 0)" Height="40" Id="Kz_s78GA0HX.rQii" MetaModelElement="az_s78GA0HX.rQij" Model="az_s78GA0HX.rQij" ModelElementNameAlignment="9" Name="Rezerwacja pokoju" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowExtensionPoint="true" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="103" X="629" Y="288" ZOrder="18">
+							<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+							<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+								<Stroke/>
+							</Line>
+							<Caption Height="40" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="103" X="0" Y="0"/>
+							<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+						</UseCase>
+					</DiagramElementChildren>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</System>
+				<System Background="rgb(122, 207, 245)" CaptionAlignment="0" ConnectToPoint="true" ConnectionPointType="2" CoverConnector="false" Foreground="rgb(0, 0, 0)" Height="636" Id="FiuC78GA0HX.rQrF" MetaModelElement="FiuC78GA0HX.rQrG" Model="FiuC78GA0HX.rQrG" ModelElementNameAlignment="1" Name="Hotele" OverrideAppearanceWithStereotypeIcon="true" ParentConnectorDTheta="0.0" ParentConnectorHeaderLength="40" ParentConnectorLineLength="10" PresentationOption="4" PrimitiveShapeType="0" RequestDefaultSize="false" RequestFitSize="false" RequestFitSizeFromCenter="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" RequestSetSizeOption="0" Selectable="true" ShowAllocatedFrom="0" ShowAllocatedTo="0" ShowStereotypeIconName="0" ShowTaggedValues="0" Width="805" X="434" Y="15" ZOrder="28">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="636" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="Center" Visible="true" Width="805" X="0" Y="0"/>
+					<FillColor Color="rgb(122, 207, 245)" Style="1" Transparency="0" Type="1"/>
+				</System>
+			</Shapes>
+			<Connectors>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="C5js78GA0HX.rQhn" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="207" Id="qQY878GA0HX.rQmM" MetaModelElement="wQY878GA0HX.rQmH" Model="wQY878GA0HX.rQmH" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="Kz_s78GA0HX.rQii" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="425" X="270" Y="136" ZOrder="30">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="472" Y="238"/>
+					<Points>
+						<Point X="320.0" Y="186.0"/>
+						<Point X="645.0" Y="293.0"/>
+					</Points>
+				</Association>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="C5js78GA0HX.rQhn" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="145" Id="K7Y878GA0HX.rQmW" MetaModelElement="I7Y878GA0HX.rQmR" Model="I7Y878GA0HX.rQmR" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="Ezvvn8GGAqBwAQx8" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="416" X="270" Y="62" ZOrder="32">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="457" Y="133"/>
+					<Points>
+						<Point X="320.0" Y="157.0"/>
+						<Point X="636.0" Y="112.0"/>
+					</Points>
+				</Association>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="C5js78GA0HX.rQhn" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="267" Id="Ae4878GA0HX.rQme" MetaModelElement="du4878GA0HX.rQmZ" Model="du4878GA0HX.rQmZ" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="Lruc78GA0HX.rQkI" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="374" X="270" Y="154" ZOrder="34">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="449" Y="284"/>
+					<Points>
+						<Point X="320.0" Y="204.0"/>
+						<Point X="594.0" Y="371.0"/>
+					</Points>
+				</Association>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="Jbjs78GA0HX.rQhw" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="130" Id="ywE878GA0HX.rQmm" MetaModelElement="_QE878GA0HX.rQmh" Model="_QE878GA0HX.rQmh" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="V5fc78GA0HX.rQlq" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="353" X="293" Y="398" ZOrder="36">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="460" Y="464"/>
+					<Points>
+						<Point X="343.0" Y="448.0"/>
+						<Point X="596.0" Y="478.0"/>
+					</Points>
+				</Association>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="Jbjs78GA0HX.rQhw" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="100" Id="eVE878GA0HX.rQmu" MetaModelElement="MVE878GA0HX.rQmp" Model="MVE878GA0HX.rQmp" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="Lruc78GA0HX.rQkI" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="354" X="270" Y="338" ZOrder="38">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="439" Y="387"/>
+					<Points>
+						<Point X="320.0" Y="388.0"/>
+						<Point X="574.0" Y="388.0"/>
+					</Points>
+				</Association>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="Jbjs78GA0HX.rQhw" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="236" Id="jUk878GA0HX.rQm2" MetaModelElement=".Uk878GA0HX.rQmx" Model=".Uk878GA0HX.rQmx" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="Ql2c78GA0HX.rQj0" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="429" X="255" Y="184" ZOrder="40">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="478" Y="322"/>
+					<Points>
+						<Point X="305.0" Y="370.0"/>
+						<Point X="305.0" Y="368.0"/>
+						<Point X="634.0" Y="234.0"/>
+					</Points>
+				</Association>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="Jbjs78GA0HX.rQhw" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="154" Id="6Tk878GA0HX.rQm." MetaModelElement="YTk878GA0HX.rQm5" Model="YTk878GA0HX.rQm5" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="Kz_s78GA0HX.rQii" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="431" X="270" Y="274" ZOrder="42">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="477" Y="356"/>
+					<Points>
+						<Point X="320.0" Y="378.0"/>
+						<Point X="320.0" Y="378.0"/>
+						<Point X="651.0" Y="324.0"/>
+					</Points>
+				</Association>
+				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="Kz_s78GA0HX.rQii" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="rWK878GA0HX.rQnY" MetaModelElement="SWK878GA0HX.rQnW" Model="SWK878GA0HX.rQnW" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="Bcmc78GA0HX.rQjg" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="348" X="677" Y="249" ZOrder="44">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="829" Y="305"/>
+					<Points>
+						<Point X="727.0" Y="299.0"/>
+						<Point X="975.0" Y="299.0"/>
+					</Points>
+				</Include>
+				<Extend Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="Lruc78GA0HX.rQkI" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="126" Id="Brh878GA0HX.rQoJ" MetaModelElement="crh878GA0HX.rQoH" Model="crh878GA0HX.rQoH" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowCondition="0" ShowConnectorName="2" To="Bcmc78GA0HX.rQjg" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="403" X="676" Y="287" ZOrder="46">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="80" X="838" Y="334"/>
+					<Points>
+						<Point X="726.0" Y="363.0"/>
+						<Point X="1029.0" Y="337.0"/>
+					</Points>
+				</Extend>
+				<Extend Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="Bcmc78GA0HX.rQjg" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="136" Id="ho4nn8GGAqBwAQnc" MetaModelElement="jQ4nn8GGAqBwAQna" Model="jQ4nn8GGAqBwAQna" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowCondition="0" ShowConnectorName="2" To="FVXHn8GGAqBwAQmv" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="1031" Y="292" ZOrder="48">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="80" X="1082" Y="352"/>
+					<Points>
+						<Point X="1081.0" Y="342.0"/>
+						<Point X="1081.0" Y="378.0"/>
+					</Points>
+				</Extend>
+				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="Ezvvn8GGAqBwAQx8" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="100" Id="wgKfn8GGAqBwAQzk" MetaModelElement="J_yfn8GGAqBwAQzj" Model="J_yfn8GGAqBwAQzj" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="Fx8fn8GGAqBwAQzO" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="402" X="689" Y="80" ZOrder="50">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="849" Y="114"/>
+					<Points>
+						<Point X="739.0" Y="130.0"/>
+						<Point X="1041.0" Y="130.0"/>
+					</Points>
+				</Include>
+				<Include Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="Ql2c78GA0HX.rQj0" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="155" Id="qEqfn8GGAqBwAQzo" MetaModelElement="PYqfn8GGAqBwAQzn" Model="PYqfn8GGAqBwAQzn" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowConnectorName="2" To="Fx8fn8GGAqBwAQzO" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="442" X="668" Y="99" ZOrder="52">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="82" X="880" Y="141"/>
+					<Points>
+						<Point X="718.0" Y="204.0"/>
+						<Point X="1060.0" Y="149.0"/>
+					</Points>
+				</Include>
+				<Extend Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" Foreground="rgb(0, 0, 0)" From="Bcmc78GA0HX.rQjg" FromConnectType="0" FromPinType="1" FromShapeXDiff="0" FromShapeYDiff="0" Height="138" Id="du2_n8GGAqBwAQ3W" MetaModelElement="w22_n8GGAqBwAQ3U" Model="w22_n8GGAqBwAQ3U" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowCondition="0" ShowConnectorName="2" To="87y_n8GGAqBwAQ27" ToConnectType="0" ToPinType="1" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="100" X="1031" Y="180" ZOrder="54">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="15" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="80" X="1082" Y="242"/>
+					<Points>
+						<Point X="1081.0" Y="268.0"/>
+						<Point X="1081.0" Y="230.0"/>
+					</Points>
+				</Extend>
+				<Association AssociationEndPropertyStringsAInternalHeight="-2147483648" AssociationEndPropertyStringsAInternalWidth="-2147483648" AssociationEndPropertyStringsBInternalHeight="-2147483648" AssociationEndPropertyStringsBInternalWidth="-2147483648" Background="rgb(122, 207, 245)" ConnectorLabelOrientation="4" ConnectorLineJumps="4" ConnectorStyle="Follow Diagram" CreatorDiagramType="UseCaseDiagram" Foreground="rgb(0, 0, 0)" From="C5js78GA0HX.rQhn" FromConnectType="0" FromMultiplicityInternalHeight="-2147483648" FromMultiplicityInternalWidth="-2147483648" FromPinType="1" FromRoleInternalHeight="-2147483648" FromRoleInternalWidth="-2147483648" FromShapeXDiff="0" FromShapeYDiff="0" HasAssociationEndPropertyStringsAShape="false" HasAssociationEndPropertyStringsBShape="false" HasMultiplicityAShape="false" HasMultiplicityBShape="false" HasRoleAShape="false" HasRoleBShape="false" Height="328" Id="w4sQX8GGAqBwAQ8H" MetaModelElement="jwsQX8GGAqBwAQ8C" Model="jwsQX8GGAqBwAQ8C" ModelElementNameAlignment="9" PaintThroughLabel="2" RequestRebuild="false" RequestRebuildFromEnd="false" RequestRebuildToEnd="false" RequestResetCaption="false" RequestResetCaptionFitWidth="false" RequestResetCaptionSize="false" Selectable="true" ShowAssociationEndPropertyStrings="false" ShowConnectorName="2" ShowDirection="false" ShowFromMultiplicity="true" ShowFromRoleName="true" ShowFromRoleVisibility="true" ShowMultiplicityConstraints="false" ShowNavigationArrows="0" ShowOrderedMultiplicityConstraint="true" ShowStereotypes="true" ShowToMultiplicity="true" ShowToRoleName="true" ShowToRoleVisibility="true" ShowUniqueMultiplicityConstraint="true" SuppressImplied1MultiplicityForAssociationEnd="0" To="V5fc78GA0HX.rQlq" ToConnectType="0" ToMultiplicityInternalHeight="-2147483648" ToMultiplicityInternalWidth="-2147483648" ToPinType="1" ToRoleInternalHeight="-2147483648" ToRoleInternalWidth="-2147483648" ToShapeXDiff="0" ToShapeYDiff="0" UseFromShapeCenter="true" UseToShapeCenter="true" Width="377" X="281" Y="183" ZOrder="56">
+					<ElementFont Color="rgb(0, 0, 0)" Name="Dialog" Size="11" Style="0"/>
+					<Line Cap="0" Color="rgb(0, 0, 0)" Transparency="0" Weight="1.0">
+						<Stroke/>
+					</Line>
+					<Caption Height="0" InternalHeight="-2147483648" InternalWidth="-2147483648" Side="None" Visible="true" Width="20" X="462" Y="341"/>
+					<Points>
+						<Point X="331.0" Y="233.0"/>
+						<Point X="608.0" Y="461.0"/>
+					</Points>
+				</Association>
+			</Connectors>
+		</UseCaseDiagram>
+		<UseCaseDescriptionDiagram ActorLinkPresentation="0" AlignToGrid="false" AutoFitShapesSize="false" BusinessRuleLinkPresentation="0" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="C6uafWiGAqBwAQ28" ImageHeight="0" ImageLinkLinesOnHeight="5" ImageLinkPresentation="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="false" Maximized="false" ModelElementNameAlignment="4" Name="Zarezerwuj pokój Details" PaintConnectorThroughLabel="1" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:34:57.075" PmLastModified="2022-10-28T11:51:34.253" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" RequirementLinkPresentation="0" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseLinkPresentation="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _fontSize="3" _globalPaletteOption="true" _showTestingProcedure="false" _useCase="87y_n8GGAqBwAQ28"/>
+		<UseCaseDescriptionDiagram ActorLinkPresentation="0" AlignToGrid="false" AutoFitShapesSize="false" BusinessRuleLinkPresentation="0" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="lwmqfWiGAqBwAQzP" ImageHeight="0" ImageLinkLinesOnHeight="5" ImageLinkPresentation="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="false" Maximized="false" ModelElementNameAlignment="4" Name="Zwolnij pokój Details" PaintConnectorThroughLabel="1" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:27:59.724" PmLastModified="2022-10-28T11:51:34.253" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" RequirementLinkPresentation="0" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseLinkPresentation="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _fontSize="3" _globalPaletteOption="true" _showTestingProcedure="false" _useCase="Fx8fn8GGAqBwAQzP"/>
+		<UseCaseDescriptionDiagram ActorLinkPresentation="0" AlignToGrid="false" AutoFitShapesSize="false" BusinessRuleLinkPresentation="0" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="ky4qfWiGAqBwAQx9" ImageHeight="0" ImageLinkLinesOnHeight="5" ImageLinkPresentation="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="false" Maximized="false" ModelElementNameAlignment="4" Name="Rezygnacja z rezerwacji Details" PaintConnectorThroughLabel="1" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:18:27.172" PmLastModified="2022-10-21T12:37:58.422" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" RequirementLinkPresentation="0" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseLinkPresentation="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _fontSize="3" _globalPaletteOption="true" _showTestingProcedure="false" _useCase="Ezvvn8GGAqBwAQx9"/>
+		<UseCaseDescriptionDiagram ActorLinkPresentation="0" AlignToGrid="false" AutoFitShapesSize="false" BusinessRuleLinkPresentation="0" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="lUICfWiGAqBwAQmw" ImageHeight="0" ImageLinkLinesOnHeight="5" ImageLinkPresentation="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="false" Maximized="false" ModelElementNameAlignment="4" Name="Proponuj inny pokój Details" PaintConnectorThroughLabel="1" PmAuthor="Student" PmCreateDateTime="2022-10-28T11:23:08.316" PmLastModified="2022-10-28T11:51:34.253" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" RequirementLinkPresentation="0" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseLinkPresentation="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _fontSize="3" _globalPaletteOption="true" _showTestingProcedure="false" _useCase="FVXHn8GGAqBwAQmw"/>
+		<UseCaseDescriptionDiagram ActorLinkPresentation="0" AlignToGrid="false" AutoFitShapesSize="false" BusinessRuleLinkPresentation="0" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="14EZ3WiA0HX.rQlr" ImageHeight="0" ImageLinkLinesOnHeight="5" ImageLinkPresentation="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="false" Maximized="false" ModelElementNameAlignment="4" Name="Sprawdzenie stanu rezerwacji Details" PaintConnectorThroughLabel="1" PmAuthor="Student" PmCreateDateTime="2022-10-21T12:14:27.148" PmLastModified="2022-10-21T12:37:58.422" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" RequirementLinkPresentation="0" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseLinkPresentation="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _fontSize="3" _globalPaletteOption="true" _showTestingProcedure="false" _useCase="V5fc78GA0HX.rQlr"/>
+		<UseCaseDescriptionDiagram ActorLinkPresentation="0" AlignToGrid="false" AutoFitShapesSize="false" BusinessRuleLinkPresentation="0" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="rq5p3WiA0HX.rQkJ" ImageHeight="0" ImageLinkLinesOnHeight="5" ImageLinkPresentation="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="false" Maximized="false" ModelElementNameAlignment="4" Name="Modyfikacja rezerwacji Details" PaintConnectorThroughLabel="1" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:51:00.581" PmLastModified="2022-10-28T11:51:34.253" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" RequirementLinkPresentation="0" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseLinkPresentation="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _fontSize="3" _globalPaletteOption="true" _showTestingProcedure="false" _useCase="Lruc78GA0HX.rQkJ"/>
+		<UseCaseDescriptionDiagram ActorLinkPresentation="0" AlignToGrid="false" AutoFitShapesSize="false" BusinessRuleLinkPresentation="0" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="wkpp3WiA0HX.rQj1" ImageHeight="0" ImageLinkLinesOnHeight="5" ImageLinkPresentation="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="false" Maximized="false" ModelElementNameAlignment="4" Name="Anulowanie rezerwacji Details" PaintConnectorThroughLabel="1" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:45:02.268" PmLastModified="2022-11-04T12:51:03.171" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" RequirementLinkPresentation="0" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseLinkPresentation="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _fontSize="3" _globalPaletteOption="true" _showTestingProcedure="false" _useCase="Ql2c78GA0HX.rQj1"/>
+		<UseCaseDescriptionDiagram ActorLinkPresentation="0" AlignToGrid="false" AutoFitShapesSize="false" BusinessRuleLinkPresentation="0" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="xdRp3WiA0HX.rQjh" ImageHeight="0" ImageLinkLinesOnHeight="5" ImageLinkPresentation="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="false" Maximized="false" ModelElementNameAlignment="4" Name="Sprawdzenie wolnych pokoi Details" PaintConnectorThroughLabel="1" PmAuthor="Student" PmCreateDateTime="2022-10-28T11:15:20.477" PmLastModified="2022-10-28T11:51:34.253" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" RequirementLinkPresentation="0" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseLinkPresentation="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _fontSize="3" _globalPaletteOption="true" _showTestingProcedure="false" _useCase="Rcmc78GA0HX.rQjh"/>
+		<UseCaseDescriptionDiagram ActorLinkPresentation="0" AlignToGrid="false" AutoFitShapesSize="false" BusinessRuleLinkPresentation="0" ConnectionPointStyle="0" ConnectorLabelOrientation="0" ConnectorLineJumps="0" ConnectorLineJumpsSize="0" ConnectorModelElementNameAlignment="4" ConnectorStyle="1" DiagramBackground="rgb(255, 255, 255)" Editable="true" FilterByViewpointLegend="true" FollowDiagramParentElement="true" GridColor="rgb(192, 192, 192)" GridHeight="10" GridVisible="false" GridWidth="10" Height="0" HideConnectorIfFromToIsHidden="0" HideEmptyTaggedValues="false" Id="6ykp3WiA0HX.rQij" ImageHeight="0" ImageLinkLinesOnHeight="5" ImageLinkPresentation="0" ImageScale="1.0" ImageWidth="0" InitializeDiagramForCreate="false" Maximized="false" ModelElementNameAlignment="4" Name="Rezerwacja pokoju Details" PaintConnectorThroughLabel="1" PmAuthor="Student" PmCreateDateTime="2022-10-21T11:24:38.262" PmLastModified="2022-10-28T11:51:34.253" PointConnectorEndToCompartmentMember="true" QualityScore="-1" RequestFitSizeWithPromptUser="false" RequestValidateSnapToGrid="false" RequirementLinkPresentation="0" ShapePresentationOption="0" ShowActivityStateNodeCaption="524287" ShowAllocatedFrom="true" ShowAllocatedTo="true" ShowColorLegend="false" ShowConnectorLegend="false" ShowConnectorName="0" ShowConstraints="false" ShowInformationItemOption="2" ShowPMAuthor="false" ShowPMDifficulty="false" ShowPMDiscipline="false" ShowPMIteration="false" ShowPMPhase="false" ShowPMPriority="false" ShowPMStatus="false" ShowPMVersion="false" ShowPackageNameStyle="0" ShowRelationshipConstraintExpression="false" ShowShapeLegend="false" ShowShapeStereotypeIconName="true" ShowStereotypes="true" ShowTaggedValues="false" TeamworkCreateDateTime="0" TrimmedHeight="0" TrimmedWidth="0" UseCaseLinkPresentation="0" Width="0" X="0" Y="0" ZoomRatio="1.0" _fontSize="3" _globalPaletteOption="true" _showTestingProcedure="false" _useCase="az_s78GA0HX.rQij"/>
+	</Diagrams>
+</Project>
