@@ -14,7 +14,7 @@ def convert_xml_to_svg(xml_file, output_svg):
     root = tree.getroot()
 
     # Find all Activity elements in Models section
-    models = root.find('Models')
+    models = root.find('Diagrams')
     if models is None:
         raise ValueError("No 'Models' section found in XML.")
 
