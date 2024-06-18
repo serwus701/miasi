@@ -301,7 +301,7 @@ def parse_xml_to_svg(xml_file, svg_file):
             x = float(accept_event.get('X', '0'))
             y = float(accept_event.get('Y', '0'))
             rect_height = float(accept_event.get('Height', '0'))
-            width = float(accept_event.get('Width', '200'))
+            width = float(accept_event.get('Width', '0'))
             name = accept_event.get('Name')
             background = accept_event.get('Background', 'rgb(255, 255, 255)')
             text_len = width + 47
