@@ -62,11 +62,107 @@ def parse_xml_to_svg(xml_file, svg_file):
         diagrams = root.find('Diagrams')
         dwg = svgwrite.Drawing(svg_file, profile='full')
 
-        activity_style = {'stroke': 'black', 'fill': 'rgb(122, 207, 245)', 'stroke-width': 2, 'rx': 10, 'ry': 10}
-        decision_node_style = {'stroke': 'black', 'fill': 'rgb(122, 207, 245)', 'stroke-width': 2}
+        swimlane_style = {'stroke': 'black', 'fill': 'none', 'stroke-width': 2}
+        activity_swimlane2_style = {'stroke': 'black', 'fill': 'none', 'stroke-width': 2}
+        activity_style = {'stroke': 'black', 'fill': 'rgb(122, 207, 245)', 'stroke-width': 1, 'rx': 10, 'ry': 10}
+        decision_node_style = {'stroke': 'black', 'fill': 'rgb(122, 207, 245)', 'stroke-width': 1}
         connector_style = {'stroke': 'black', 'stroke-width': 1}
 
         element_positions = {}
+
+        swimlanes_count = 0
+        # Find and place ActivitySwimlane2
+        for swimlane in diagrams.findall(".//ActivitySwimlane2"):
+            x = float(swimlane.get('X', '0'))
+            y = float(swimlane.get('Y', '0'))
+            width = float(swimlane.get('Width', '0'))
+            height = float(swimlane.get('Height', '0'))
+
+            element_positions[swimlanes_count] = {
+                'type': 'rect',
+                'x': x,
+                'y': y,
+                'width': width,
+                'height': height
+            }
+
+            dwg.add(dwg.rect(insert=(x, y), size=(width, height), **swimlane_style))
+
+            swimlanes_count += 1
+        print(f"Total SwimLanes: {swimlanes_count}")
+
+        partition_headers_count = 0
+        # Find and place ActivityPartitionHeader
+        for partition_header in diagrams.findall(".//ActivityPartitionHeader"):
+            id = partition_header.get('Id')
+            x = float(partition_header.get('X', '0'))
+            y = float(partition_header.get('Y', '0'))
+            width = float(partition_header.get('Width', '200'))
+            height = float(partition_header.get('Height', '40'))
+            name = partition_header.get('Name')
+            text_len = width + 47
+            wrapped_lines = wrap_text_by_approx_width(name, text_len, 11)
+
+            element_positions[id] = {
+                'type': 'rect',
+                'x': x,
+                'y': y,
+                'width': width,
+                'height': height
+            }
+
+            background_style = {
+                'stroke': 'black',
+                'fill': 'white',
+                'stroke-width': 2
+            }
+
+            dwg.add(dwg.rect(insert=(x, y), size=(width, height), **background_style))
+
+            for i, line in enumerate(wrapped_lines):
+                text_y = y + 11 + i * 12
+                dwg.add(dwg.text(line, insert=(x + width / 2, text_y), fill='black', text_anchor='middle',
+                                 font_size=11, font_family='Arial', font_weight='normal'))
+
+            partition_headers_count += 1
+        print(f"Total ActivityPartitionHeaders: {partition_headers_count}")
+
+        activity_swimlanes_count = 0
+        for compartment in diagrams.findall(".//ActivitySwimlane2Compartment"):
+            x = float(compartment.get('X', '0'))
+            y = float(compartment.get('Y', '0'))
+            width = float(compartment.get('Width', '0'))
+            height = float(compartment.get('Height', '0'))
+            name = compartment.get('Name')
+            background_color = compartment.get('BackgroundColor', 'white')
+            border_color = compartment.get('BorderColor', 'black')
+
+            compartment_style = {
+                'stroke': border_color,
+                'fill': background_color,
+                'stroke-width': 2
+            }
+
+            element_positions[activity_swimlanes_count] = {
+                'type': 'rect',
+                'x': x,
+                'y': y,
+                'width': width,
+                'height': height
+            }
+
+            dwg.add(dwg.rect(insert=(x, y), size=(width, height), **compartment_style))
+
+            if name:
+                wrapped_lines = wrap_text_by_approx_width(name, width, 11)
+                for i, line in enumerate(wrapped_lines):
+                    text_y = y + 15 + i * 12
+                    dwg.add(dwg.text(line, insert=(x + 5, text_y), fill='black', font_size=11, font_family='Arial',
+                                     font_weight='normal'))
+
+            activity_swimlanes_count += 1
+
+        print(f"Total SwimLanesCompartment: {activity_swimlanes_count}")
 
         initial_nodes_count = 0
         # Find and place InitialNode
@@ -148,7 +244,7 @@ def parse_xml_to_svg(xml_file, svg_file):
             background_style = {
                 'stroke': 'black',
                 'fill': background,
-                'stroke-width': 2,
+                'stroke-width': 1,
                 'rx': 10,
                 'ry': 10
             }
@@ -219,7 +315,7 @@ def parse_xml_to_svg(xml_file, svg_file):
                 (x - arrow_size, y)
             ]
 
-            dwg.add(dwg.polygon(points=arrow_points, fill=background, stroke='black', stroke_width=2))
+            dwg.add(dwg.polygon(points=arrow_points, fill=background, stroke='black', stroke_width=1))
 
             for i, line in enumerate(wrapped_lines):
                 text_y = y + 15 + i * 12
@@ -256,9 +352,9 @@ def parse_xml_to_svg(xml_file, svg_file):
                 (x, y),
                 (x, y + rect_height),
                 (x + width, y + rect_height),
-                (x + width + arrow_size, y + rect_height / 2)
+                (x + width + arrow_size / 4, y + rect_height / 2)
             ]
-            dwg.add(dwg.polygon(points=arrow_points, fill=background, stroke='black', stroke_width=2))
+            dwg.add(dwg.polygon(points=arrow_points, fill=background, stroke='black', stroke_width=1))
 
             for i, line in enumerate(wrapped_lines):
                 text_y = y + 15 + i * 12
@@ -324,7 +420,7 @@ def parse_xml_to_svg(xml_file, svg_file):
             background_style = {
                 'stroke': 'black',
                 'fill': background,
-                'stroke-width': 2
+                'stroke-width': 1
             }
 
             dwg.add(dwg.rect(insert=(x, y), size=(width, rect_height), **background_style))
@@ -409,24 +505,20 @@ def parse_xml_to_svg(xml_file, svg_file):
                         end_point = points_list[point_idx + 1]
                         dwg.add(dwg.line(start=start_point, end=end_point, **connector_style))
 
-                    # Adding arrow heads
+                if len(points_list) >= 2:
                     from_edge = points_list[-2]
                     to_edge = points_list[-1]
-                else:
-                    # Calculate the edge point closest to the other element
-                    from_edge = calculate_edge(from_element, to_element)
-                    to_edge = calculate_edge(to_element, from_element)
-
-                arrow_size = 7
-                angle = math.atan2(to_edge[1] - from_edge[1], to_edge[0] - from_edge[0])
-                arrow_points = [
-                    (to_edge[0] - arrow_size * math.cos(angle - math.pi / 6),
-                     to_edge[1] - arrow_size * math.sin(angle - math.pi / 6)),
-                    (to_edge[0] - arrow_size * math.cos(angle + math.pi / 6),
-                     to_edge[1] - arrow_size * math.sin(angle + math.pi / 6)),
-                    to_edge
-                ]
-                dwg.add(dwg.polygon(points=arrow_points, fill='black'))
+                    arrow_size = 15
+                    angle = math.atan2(to_edge[1] - from_edge[1], to_edge[0] - from_edge[0])
+                    arrow_points = [
+                        (to_edge[0] - arrow_size * math.cos(angle - math.pi / 6),
+                         to_edge[1] - arrow_size * math.sin(angle - math.pi / 6)),
+                        (to_edge[0] - arrow_size * math.cos(angle + math.pi / 6),
+                         to_edge[1] - arrow_size * math.sin(angle + math.pi / 6)),
+                        to_edge
+                    ]
+                    dwg.add(dwg.line(start=(arrow_points[0]), end=(arrow_points[2]), **connector_style))
+                    dwg.add(dwg.line(start=(arrow_points[1]), end=(arrow_points[2]), **connector_style))
 
                 activity_object_flow_count += 1
         print(f"Total ControlFlows: {activity_object_flow_count}")
