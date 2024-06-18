@@ -43,7 +43,7 @@ def parse_xml_to_svg(xml_file, svg_file):
         dwg = svgwrite.Drawing(svg_file, profile='full')
 
         # Define some basic styles
-        activity_style = {'stroke': 'black', 'fill': 'white', 'stroke-width': 2}
+        activity_style = {'stroke': 'black', 'fill': 'white', 'stroke-width': 2, 'rx': 10, 'ry': 10}
         initial_node_style = {'fill': 'black'}
         final_node_style = {'fill': 'red'}
         accept_event_style = {'stroke': 'black', 'fill': 'white', 'stroke-width': 2}
@@ -125,7 +125,9 @@ def parse_xml_to_svg(xml_file, svg_file):
             background_style = {
                 'stroke': 'black',
                 'fill': background,
-                'stroke-width': 2
+                'stroke-width': 2,
+                'rx': 10,
+                'ry': 10
             }
 
             dwg.add(dwg.rect(insert=(x, y - rect_height / 2), size=(width, rect_height), **background_style))
@@ -181,7 +183,26 @@ def parse_xml_to_svg(xml_file, svg_file):
                 'stroke-width': 2
             }
 
-            dwg.add(dwg.rect(insert=(x, y - rect_height / 2), size=(width, rect_height), **accept_event_style))
+            arrow_size = width / 10  # Adjust as needed
+
+            # Define points for the arrow on the right side
+            arrow_points = [
+                # (x, y - rect_height / 2),
+                (x, y - rect_height / 2),
+                (x + width, y - rect_height / 2),
+                (x + width, y + rect_height / 2),
+                (x, y + rect_height / 2),
+                (x - arrow_size, y + rect_height / 2),
+                (x, y),
+                (x - arrow_size, y - rect_height / 2)
+                # (x, y - arrow_size / 2),  # Top point of the arrow
+                # (x, y + arrow_size / 2),  # Bottom point of the arrow
+                # (x - arrow_size, y)  # Tip of the arrow
+            ]
+
+            # dwg.add(
+                # dwg.rect(insert=(x, y - rect_height / 2), size=(width + arrow_size, rect_height), **background_style))
+            dwg.add(dwg.polygon(points=arrow_points, fill=background, stroke='black', stroke_width=2))
 
             for i, line in enumerate(wrapped_lines):
                 text_y = y - rect_height / 2 + 15 + i * 12
@@ -190,13 +211,6 @@ def parse_xml_to_svg(xml_file, svg_file):
                                  font_size=11, font_family='Arial', font_weight='normal'))
 
             # Adding small arrow from left
-            arrow_size = 7
-            arrow_points = [
-                (x - width / 2 - arrow_size, y),
-                (x - width / 2, y - arrow_size),
-                (x - width / 2, y + arrow_size)
-            ]
-            dwg.add(dwg.polygon(points=arrow_points, fill='black'))
 
             accept_event_actions_count += 1
         print(f"Total AcceptEventActions: {accept_event_actions_count}")
@@ -227,7 +241,26 @@ def parse_xml_to_svg(xml_file, svg_file):
                 'stroke-width': 2
             }
 
-            dwg.add(dwg.rect(insert=(x, y - rect_height / 2), size=(width, rect_height), **background_style))
+            # Calculate arrow size based on the width of the rectangle
+            arrow_size = rect_height  # Adjust as needed
+
+            # Define points for the arrow on the right side
+            arrow_points = [
+                (x + width, y - rect_height / 2),
+                (x, y - rect_height / 2),
+                (x, y + rect_height / 2),
+                (x + width, y + rect_height / 2),
+                # (x + width + arrow_size, y - arrow_size / 2),  # Top point of the arrow
+                # (x + width + arrow_size, y + arrow_size / 2),  # Bottom point of the arrow
+                (x + width + arrow_size, y)  # Tip of the arrow
+            ]
+
+            # Draw the background rectangle including the arrow
+            # Adjust the size of the rectangle to include the arrow
+            # dwg.add(
+            #     dwg.rect(insert=(x, y - rect_height / 2), size=(width + arrow_size, rect_height), **background_style))
+            # Draw the arrow
+            dwg.add(dwg.polygon(points=arrow_points, fill=background, stroke='black', stroke_width=2))
 
             for i, line in enumerate(wrapped_lines):
                 text_y = y - rect_height / 2 + 15 + i * 12
@@ -235,16 +268,9 @@ def parse_xml_to_svg(xml_file, svg_file):
                 dwg.add(dwg.text(line, insert=(x + width / 2, text_y), fill='black', text_anchor='middle',
                                  font_size=11, font_family='Arial', font_weight='normal'))
 
-            # Adding small arrow from right
-            arrow_size = 7
-            arrow_points = [
-                (x + width / 2 + arrow_size, y),
-                (x + width / 2, y - arrow_size),
-                (x + width / 2, y + arrow_size)
-            ]
-            dwg.add(dwg.polygon(points=arrow_points, fill='black'))
 
             send_signal_actions_count += 1
+
         print(f"Total SendSignalActions: {send_signal_actions_count}")
 
         decision_nodes_count = 0
@@ -337,7 +363,7 @@ def parse_xml_to_svg(xml_file, svg_file):
                 dwg.add(dwg.line(start=from_edge, end=to_edge, **connector_style))
 
                 # Adding arrow heads
-                arrow_size = 5
+                arrow_size = 7
                 angle = math.atan2(to_edge[1] - from_edge[1], to_edge[0] - from_edge[0])
                 arrow_points = [
                     (to_edge[0] - arrow_size * math.cos(angle - math.pi / 6),
@@ -367,7 +393,7 @@ def parse_xml_to_svg(xml_file, svg_file):
                 dwg.add(dwg.line(start=from_edge, end=to_edge, **connector_style))
 
                 # Adding arrow heads
-                arrow_size = 5
+                arrow_size = 7
                 angle = math.atan2(to_edge[1] - from_edge[1], to_edge[0] - from_edge[0])
                 arrow_points = [
                     (to_edge[0] - arrow_size * math.cos(angle - math.pi / 6),
