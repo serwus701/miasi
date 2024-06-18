@@ -509,7 +509,6 @@ def parse_xml_to_svg(xml_file, svg_file):
                 activity_object_flow_count += 1
         print(f"Total ControlFlows: {activity_object_flow_count}")
 
-        # Save the SVG file
         dwg.save()
 
     except Exception as e:
@@ -541,17 +540,13 @@ def calculate_edge(from_element, to_element):
 
         if abs(dx) > abs(dy):
             if dx > 0:
-                # Connect to the right edge center
                 return (from_center[0] + half_width, from_center[1])
             else:
-                # Connect to the left edge center
                 return (from_center[0] - half_width, from_center[1])
         else:
             if dy > 0:
-                # Connect to the bottom edge center
                 return (from_center[0], from_center[1] + half_height)
             else:
-                # Connect to the top edge center
                 return (from_center[0], from_center[1] - half_height)
     elif from_element['type'] == 'circle':
         radius = from_element['radius']
@@ -563,17 +558,13 @@ def calculate_edge(from_element, to_element):
 
         if abs(dx) > abs(dy):
             if dx > 0:
-                # Right edge
                 return (from_center[0] + half_width, from_center[1])
             else:
-                # Left edge
                 return (from_center[0] - half_width, from_center[1])
         else:
             if dy > 0:
-                # Bottom edge
                 return (from_center[0], from_center[1] + half_height)
             else:
-                # Top edge
                 return (from_center[0], from_center[1] - half_height)
 
 
