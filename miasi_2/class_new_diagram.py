@@ -94,9 +94,18 @@ def parse(xml_file, output_file):
     dwg = svgwrite.Drawing(output_file, profile='full', size=('2000px', '1600px'))
 
     # Define arrow marker for transitions
-    # arrow_marker = dwg.marker(id='arrow', insert=(10, 5), size=(10, 10), orient='auto')
-    # arrow_marker.add(dwg.path(d='M0,0 L0,10 L10,5 Z', fill='black'))
-    # dwg.defs.add(arrow_marker)
+    arrow_marker = dwg.marker(id='arrow', insert=(10, 5), size=(10, 10), orient='auto')
+    arrow_marker.add(dwg.path(d='M0,0 L0,10 L10,5 Z', fill='black'))
+
+    dot_marker = dwg.marker(insert=(5, 5), size=(10, 10), orient='auto')
+    dot_marker.add(dwg.circle(center=(5, 5), r=3, fill='black'))
+    dwg.defs.add(dot_marker)
+    dwg.defs.add(arrow_marker)
+
+    x_arrow_marker = dwg.marker(insert=(0, 10), size=(20, 20), orient='auto')
+    x_arrow_marker.add(dwg.line(start=(5, 0), end=(15, 20), stroke='black', stroke_width=1))
+    x_arrow_marker.add(dwg.line(start=(5, 20), end=(15, 0), stroke='black', stroke_width=1))
+    dwg.defs.add(x_arrow_marker)
 
     # Extracting state machine elements
     model_classes = parse_model_classes(root.find('.//Models'))
@@ -244,10 +253,20 @@ def parse(xml_file, output_file):
 
                 actual_point = actual_points[i]
 
+                if i == 1:
+                    dwg.add(dwg.line(start=(previous.get('x'), previous.get('y')),
+                                     end=(actual_point.get('x'), actual_point.get('y')), stroke='black',
+                                     marker_start=x_arrow_marker.get_funciri())),
+
                 if i == len(actual_points) - 1:
                     dwg.add(dwg.line(start=(previous.get('x'), previous.get('y')),
-                                     end=(actual_point.get('x'), actual_point.get('y')), stroke='black'))
+                                     end=(actual_point.get('x'), actual_point.get('y')), stroke='black',
+                                     marker_end=arrow_marker.get_funciri()))
+                    dwg.add(dwg.line(start=(previous.get('x'), previous.get('y')),
+                                     end=(actual_point.get('x'), actual_point.get('y')), stroke='black',
+                                     marker_end=dot_marker.get_funciri()))
                     break
+
 
                 dwg.add(
                     dwg.line(start=(previous.get('x'), previous.get('y')), end=(actual_point.get('x'), actual_point.get('y')),
