@@ -268,18 +268,29 @@ def parse_xml_to_svg(xml_file, svg_file):
             x = float(final_node.get('X', '0'))
             y = float(final_node.get('Y', '0'))
 
-            radiuss = width / 2
+            radius_outer = width / 2
+            radius_inner = radius_outer * 0.6
+
             element_positions[id] = {
                 'type': 'circle',
                 'center': (x, y),
-                'radius': radiuss
+                'radius': radius_outer
             }
 
-            final_node_style = {
-                'fill': background
+            final_node_outer_style = {
+                'fill': 'none',
+                'stroke': 'black',
+                'stroke-width': 1
             }
 
-            dwg.add(dwg.circle(center=(x + radiuss, y + radiuss), r=radiuss, **final_node_style))
+            final_node_inner_style = {
+                'fill': background,
+                'stroke': 'none'
+            }
+
+            dwg.add(dwg.circle(center=(x + radius_outer, y + radius_outer), r=radius_outer, **final_node_outer_style))
+            dwg.add(dwg.circle(center=(x + radius_outer, y + radius_outer), r=radius_inner, **final_node_inner_style))
+
             final_nodes_count += 1
         print(f"Total ActivityFinalNodes: {final_nodes_count}")
 
