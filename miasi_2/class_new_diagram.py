@@ -227,7 +227,13 @@ def parse(xml_file, output_file):
         write_at = y + shift * 2 + 1.3
 
         for attribute in attributes:
-            dwg.add(dwg.text(attribute.get('Name'), insert=(x + 2, write_at), text_anchor='start',
+            visibility = ''
+            if attribute.get('Visibility') == 'private':
+                visibility = '-'
+            elif attribute.get('Visibility') == 'public':
+                visibility = '+'
+
+            dwg.add(dwg.text(f'{visibility}{attribute.get('Name')}', insert=(x + 2, write_at), text_anchor='start',
                                  font_size='10px',
                                  font_family='Arial'))
             write_at += shift
@@ -238,7 +244,12 @@ def parse(xml_file, output_file):
             write_at += 1
 
         for operation in operations:
-            dwg.add(dwg.text(f'{operation.get('Name')}()', insert=(x + 2, write_at), text_anchor='start',
+            visibility = ''
+            if operation.get('Visibility') == 'private':
+                visibility = '-'
+            elif operation.get('Visibility') == 'public':
+                visibility = '+'
+            dwg.add(dwg.text(f'{visibility}{operation.get('Name')}()', insert=(x + 2, write_at), text_anchor='start',
                              font_size='10px',
                              font_family='Arial'))
             write_at += shift
