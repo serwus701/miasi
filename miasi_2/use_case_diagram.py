@@ -1,6 +1,21 @@
 import xml.etree.ElementTree as ET
 import svgwrite
+import math
 
+def arrowhead_coordinates(x1, y1, x2, y2):
+    arrow_length = 10
+    arrow_angle_degrees = 45
+    theta = math.atan2(y2 - y1, x2 - x1)
+
+    alpha = math.radians(arrow_angle_degrees)
+
+    x3 = x2 - arrow_length * math.cos(theta - alpha)
+    y3 = y2 - arrow_length * math.sin(theta - alpha)
+
+    x4 = x2 - arrow_length * math.cos(theta + alpha)
+    y4 = y2 - arrow_length * math.sin(theta + alpha)
+
+    return (x3, y3), (x4, y4)
 
 def parse_usecase_diagram(xml_file):
     tree = ET.parse(xml_file)
@@ -128,6 +143,9 @@ def draw_usecase_diagram(actors, use_cases, associations, dependencies, systems,
         line_begin = coords_map[id_source]
         line_end = coords_map[id_destination]
         dwg.add(dwg.line(start=line_begin, end=line_end, stroke=svgwrite.rgb(0, 0, 0, '%'), stroke_dasharray="5,5"))
+        (x2, y2),(x1, y1) =arrowhead_coordinates(*line_begin, *line_end )
+        dwg.add(dwg.line(start=(x1, y1), end=line_end, stroke=svgwrite.rgb(0, 0, 0, '%')))
+        dwg.add(dwg.line(start=(x2, y2), end=line_end, stroke=svgwrite.rgb(0, 0, 0, '%')))
 
     dwg.save()
 
