@@ -8,7 +8,7 @@ def parse_model_classes(elem):
     to_remove = []
 
     for m_class_raw in m_classes_raw:
-        if m_class_raw.getparent().getparent().tag != 'Model':
+        if m_class_raw.getparent().getparent().tag != 'Model' and m_class_raw.getparent().getparent().tag != 'Package':
             to_remove.append(m_class_raw)
 
     for m_class_raw in to_remove:
@@ -53,6 +53,22 @@ def parse_diagram_classes(elem):
     return classes_return
 
 
+def parse_points(elem):
+    points_raw = elem.findall('.//Points')
+    points = []
+
+    for points_obj in points_raw:
+        point_points = []
+
+        id = points_obj.getparent().get('Id')
+
+        for child in points_obj.iterchildren():
+            x = child.attrib.get('X')
+            y = child.attrib.get('Y')
+            point_points.append({'x': x, 'y': y})
+        points.append({'points': point_points, 'id': id})
+    return points
+
 def parse_font_shift(elem):
     shift = 0
     for child in elem:
@@ -85,6 +101,7 @@ def parse(xml_file, output_file):
     # Extracting state machine elements
     model_classes = parse_model_classes(root.find('.//Models'))
     diagram_classes = parse_diagram_classes(root.find('.//Diagrams'))
+    points = parse_points(root)
 
     for model_class_name, model_class in model_classes.items():
         print(f'{model_class_name} has {model_class}')
@@ -216,6 +233,28 @@ def parse(xml_file, output_file):
                              font_size='10px',
                              font_family='Arial'))
             write_at += shift
+
+        previous = None
+        for x in range(len(points)):
+            actual_points = points[x].get('points')
+            for i in range(len(actual_points)):
+                if previous is None:
+                    previous = actual_points[i]
+                    continue
+
+                actual_point = actual_points[i]
+
+                if i == len(actual_points) - 1:
+                    dwg.add(dwg.line(start=(previous.get('x'), previous.get('y')),
+                                     end=(actual_point.get('x'), actual_point.get('y')), stroke='black'))
+                    break
+
+                dwg.add(
+                    dwg.line(start=(previous.get('x'), previous.get('y')), end=(actual_point.get('x'), actual_point.get('y')),
+                             stroke='black'))
+
+                previous = actual_point
+            previous = None
         # if class_info['children']:
         #     children_lines = class_info['children'].split('\n')
         #     children_lines.reverse()
