@@ -12,9 +12,39 @@ def parse_model_children(elem):
                     children_text += subchild.attrib['Name'] + "\n"
     return children_text.strip()
 
+def parse_caption_pos(elem):
+    for child in elem:
+        if child.tag.endswith('Caption'):
+            x = int(child.attrib.get('X'))
+            y = int(child.attrib.get('Y'))
+            height = int(elem.attrib.get('Height', 0))
+            width = int(elem.attrib.get('Width', 0))
+            return {'height':height, 'width':width, 'x': x, 'y': y}
+    return {'x': 0, 'y': 0}
+
+def parse_font_shift(elem):
+    shift = 0
+    for child in elem:
+        if child.tag.endswith('ElementFont'):
+            shift += int(child.attrib.get('Size'))
+    return shift
+
+
 def get_state_name(elem):
     """ Retrieve the state's name, considering potential translations or alternate formats. """
     return elem.attrib.get('Name', 'Unnamed')
+
+
+def rgb_to_hex(rgb_string):
+    # Remove the "rgb(" and ")" part and split the remaining string by commas
+    rgb_values = rgb_string[4:-1].split(',')
+
+    # Convert each component to an integer
+    r, g, b = [int(value) for value in rgb_values]
+
+    # Format the integers as hexadecimal and return the combined string
+    return f'#{r:02X}{g:02X}{b:02X}'
+
 def parse(xml_file, output_file):
     tree = ET.parse(xml_file)
     root = tree.getroot()
@@ -31,34 +61,51 @@ def parse(xml_file, output_file):
     states = {}
     transitions = []
     special_states = {}
+    points = {}
 
     # Parse states and transitions
     for elem in root.iter():
         if 'State' in elem.tag:
-            state_id = elem.attrib.get('Id')
+            state_id = elem.attrib.get('Id', None)
             state_name = get_state_name(elem)
-            state_x = float(elem.attrib.get('X', 0))
-            state_y = float(elem.attrib.get('Y', 0))
+            state_x = int(elem.attrib.get('X', 0))
+            state_y = int(elem.attrib.get('Y', 0))
+            height = int(elem.attrib.get('Height', 0))
+            width = int(elem.attrib.get('Width', 0))
+            color = rgb_to_hex(elem.attrib.get('Background', 'rgb(0,0,0)'))
             model_children = parse_model_children(elem)
+            align_to_grid = elem.attrib.get('AlignToGrid')
+            font_shift_y = int(parse_font_shift(elem))
+            print(parse_caption_pos(elem))
             print(
-                f'Parsed state: ID={state_id}, Name={state_name}, X={state_x}, Y={state_y}, ModelChildren={model_children}')
-            if state_x == 0 and state_y == 0:
-                # print(model_children)
-                special_states[state_id] = {'name': state_name, 'children': model_children}
-            else:
-                states[state_id] = {'name': state_name, 'x': state_x, 'y': state_y, 'children': model_children}
+                f'Parsed state: ID={state_id}, Name={state_name}, X={state_x}, Y={state_y}, ModelChildren={model_children}, Width={width}, Height={height}')
+            if state_x == 0.0 and state_y == 0.0 and state_id and len(model_children) > 0 and align_to_grid is None:
+                special_states[state_id] = {'name': state_name, 'children': model_children, 'caption': parse_caption_pos(elem)}
+            elif state_id and align_to_grid is None:
+                print('xd')
+                states[state_id] = {'name': state_name, 'x': state_x, 'y': state_y, 'children': model_children,
+                                    'height': height, 'width': width, 'caption': parse_caption_pos(elem), 'fontShift': font_shift_y, 'color': color}
         elif elem.tag == 'Transition2':
-            from_state = elem.attrib.get('From')
-            to_state = elem.attrib.get('To')
+            x = int(elem.attrib.get('X',0))
+            y = int(elem.attrib.get('Y',0))
             transition_name = elem.attrib.get('Name', '')
-            print(f'Parsed transition: From={from_state}, To={to_state}, Name={transition_name}')
-            if from_state and to_state:
-                transitions.append({'from': from_state, 'to': to_state, 'name': transition_name})
+            id = elem.attrib.get('Id', '')
+            print(f'Parsed transition: Id={id}, X={x}, Y={y}, Name={transition_name}')
+            if x and y and id:
+                transitions.append({'id': id, 'x': x, 'y': y, 'name': transition_name})
+        elif elem.tag == 'Points':
+            pointPoints = []
+            for child in elem.iterchildren():
+                x = child.attrib.get('X')
+                y = child.attrib.get('Y')
+                pointPoints.append({'x': x, 'y': y})
+            points[elem.getparent().attrib.get('Id')] = pointPoints
 
     # Integrate special states into their parent states
     for special_state_id, special_state_info in special_states.items():
         for parent_id, parent_info in states.items():
             if special_state_info['name'] in parent_info['name']:
+                print(f'Parent: {parent_info} \n Special: {special_state_info}')
                 parent_info['children'] += "\n" + special_state_info['children']
 
     for state_id, state_info in states.items():
@@ -71,32 +118,63 @@ def parse(xml_file, output_file):
         for child in children_lines:
             states[state_id]['children'] += child + '\n'
 
+    toRemove = []
+
+    for transition in transitions:
+        print(transition['id'])
+        if points.get(transition['id']) is None:
+            toRemove.append(transition)
+
+    for transition in toRemove:
+        transitions.remove(transition)
+
     # Draw states
     for state_id, state_info in states.items():
         x, y = state_info['x'], state_info['y']
-        rect_width = 150
-        rect_height = 70 + 15 * state_info['children'].count('\n')
-        dwg.add(dwg.rect(insert=(x - rect_width / 2, y - rect_height / 2), size=(rect_width, rect_height),
-                         rx=10, ry=10, fill='#BFEFFF', stroke='black'))
-        dwg.add(dwg.text(state_info['name'], insert=(x, y - rect_height / 2 + 15), text_anchor='middle', font_size='12px',
+        rect_width = state_info['width']
+        rect_height = state_info['height']
+        caption = state_info['caption']
+        font_shift = state_info['fontShift']
+        color = state_info['color']
+        print(rect_width)
+        print(rect_height)
+        dwg.add(dwg.rect(insert=(x, y), size=(rect_width, rect_height),
+                         rx=10, ry=10, fill=color, stroke='black'))
+        if caption['x'] != 0 and caption['y'] != 0:
+            dwg.add(
+                dwg.text(state_info['name'], insert=(caption['x']+caption['width']/2, caption['y']+font_shift), text_anchor='middle', font_size='11px',
                          font_family='Arial'))
+        dwg.add(dwg.line(start=(x, y+font_shift+2), end=(x + rect_width, y+font_shift+2),
+                         stroke='black'))
         if state_info['children']:
             children_lines = state_info['children'].split('\n')
+            children_lines.reverse()
             for i, line in enumerate(children_lines):
-                dwg.add(dwg.text(line, insert=(x - 70, y - rect_height / 2 + 35 + 15 * i), text_anchor='start', font_size='10px',
+                dwg.add(dwg.text(line, insert=(x+2, y + font_shift * (i+1.3)), text_anchor='start',
+                                 font_size='10px',
                                  font_family='Arial'))
 
     # Draw transitions
     for transition in transitions:
-        from_state = states.get(transition['from'])
-        to_state = states.get(transition['to'])
-        if from_state and to_state:
-            x1, y1 = from_state['x'], from_state['y']
-            x2, y2 = to_state['x'], to_state['y']
-            dwg.add(dwg.line(start=(x1, y1), end=(x2, y2), stroke='black', marker_end=arrow_marker.get_funciri()))
-            mid_x, mid_y = (x1 + x2) / 2, (y1 + y2) / 2
-            dwg.add(dwg.text(transition['name'], insert=(mid_x, mid_y - 5), text_anchor='middle', font_size='10px',
-                             font_family='Arial'))
+        print(transition['id'])
+        pointsOfTransition = points.get(transition['id'])
+        previous = None
+        for i in range(len(pointsOfTransition)):
+            if previous is None:
+                previous = pointsOfTransition[i]
+                continue
+            actualPoint = pointsOfTransition[i]
+            if i == len(pointsOfTransition) - 1:
+                dwg.add(dwg.line(start=(previous.get('x'), previous.get('y')),
+                                 end=(actualPoint.get('x'), actualPoint.get('y')), stroke='black',
+                                 marker_end=arrow_marker.get_funciri()))
+                break
+            dwg.add(
+                dwg.line(start=(previous.get('x'), previous.get('y')), end=(actualPoint.get('x'), actualPoint.get('y')),
+                         stroke='black'))
+            previous = actualPoint
+        dwg.add(dwg.text(transition['name'], insert=(transition['x']+120, transition['y']+47), text_anchor='middle', font_size='10px',
+                         font_family='Arial'))
 
     # Save the SVG file
     dwg.save()
