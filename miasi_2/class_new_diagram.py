@@ -91,7 +91,6 @@ def get_return_type(elem):
         elif datatype is not None:
             to_return = datatype.get('Name')
     else:
-        print(elem.attrib)
         to_return = elem.get('ReturnType', None)
     return to_return
 
@@ -220,10 +219,10 @@ def parse(xml_file, output_file):
                 visibility = '#'
 
             if attribute.get('type') is not None:
-                type = f': {attribute.get('type')}'
+                type = f": {attribute.get('type')}"
 
             # Writes attribute like "+ Name: int"
-            dwg.add(dwg.text(f'{visibility} {attribute.get('Name')}{type}', insert=(x + 2, write_at), text_anchor='start',
+            dwg.add(dwg.text(f"{visibility} {attribute.get('Name')}{type}", insert=(x + 2, write_at), text_anchor='start',
                                  font_size='10px',
                                  font_family='Arial'))
             write_at += shift
@@ -250,7 +249,7 @@ def parse(xml_file, output_file):
                 visibility = '#'
 
             if operation.get('return_type') is not None:
-                return_type = f': {operation.get('return_type')}'
+                return_type = f": {operation.get('return_type')}"
 
             # Get string of all parameters of this operation
             if len(operation.get('Parameters')) > 0:
@@ -262,7 +261,7 @@ def parse(xml_file, output_file):
                         parameters += ', '
 
             # Write operation like "+ Name(smt: int): void"
-            dwg.add(dwg.text(f'{visibility}{operation.get('Name')}({parameters}){return_type}{modifier}', insert=(x + 2, write_at), text_anchor='start',
+            dwg.add(dwg.text(f"{visibility}{operation.get('Name')}({parameters}){return_type}{modifier}", insert=(x + 2, write_at), text_anchor='start',
                              font_size='10px',
                              font_family='Arial'))
             write_at += shift
@@ -308,7 +307,7 @@ def parse(xml_file, output_file):
 
 
 def main():
-    xml_file = 'sumxmls/simple_class.xml'
+    xml_file = 'sumxmls/simple_class_huge.xml'
     output_file = 'class_diagram.svg'
 
     parse(xml_file, output_file)

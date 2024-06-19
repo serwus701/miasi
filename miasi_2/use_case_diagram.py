@@ -110,13 +110,16 @@ def draw_usecase_diagram(actors, use_cases, associations, dependencies, systems,
 
     for system in systems:
         x, y, width, height = system['x'], system['y'], system['width'], system['height']
-        dwg.add(dwg.rect(insert=(x, y), size=(width, height), fill='lightblue', stroke='black'))
-        dwg.add(dwg.text(system['name'], insert=(x + 10, y + 20), font_size=15, font_weight="bold"))
+        new_width = width * 1.3
+        new_x = x - (new_width - width)
+        dwg.add(dwg.rect(insert=(new_x, y), size=(new_width, height), fill='#7acff5', stroke='black'))
+        dwg.add(dwg.text(system['name'], insert=(new_x + 10, y + 20), font_size=15, font_weight="bold"))
 
     for actor_id, actor_details in actors.items():
         x, y = map(int, actor_details['coords'])
         actor_positions[actor_id] = (x, y)
-        dwg.add(dwg.circle(center=(x, y - 20), r=10, fill='blue'))  # Głowa
+        dwg.add(
+            dwg.circle(center=(x, y - 20), r=10, fill='#7acff5', stroke='black', stroke_width=1))  # Głowa z konturem
         dwg.add(dwg.line(start=(x, y - 10), end=(x, y + 20), stroke='black'))  # Ciało
         dwg.add(dwg.line(start=(x, y), end=(x - 10, y + 10), stroke='black'))  # Lewa ręka
         dwg.add(dwg.line(start=(x, y), end=(x + 10, y + 10), stroke='black'))  # Prawa ręka
@@ -127,8 +130,8 @@ def draw_usecase_diagram(actors, use_cases, associations, dependencies, systems,
     for use_case in use_cases:
         x, y = map(int, (use_case['x'], use_case['y']))
         use_case_positions[use_case['id']] = (x, y)
-        dwg.add(dwg.ellipse(center=(x, y), r=(60, 30), fill='#3483eb'))
-        dwg.add(dwg.text(use_case['name'], insert=(x-25, y)))
+        dwg.add(dwg.ellipse(center=(x, y), r=(60, 30), fill='none', stroke='black'))
+        dwg.add(dwg.text(use_case['name'], insert=(x - 25, y)))
 
     for association in associations:
         id_source = association['source'][:-1]
