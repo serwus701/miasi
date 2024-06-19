@@ -2,6 +2,16 @@ import math
 import xml.etree.ElementTree as ET
 import svgwrite
 
+def parse_caption_pos(elem):
+    for child in elem:
+        if child.tag.endswith('Caption'):
+            x = int(child.attrib.get('X'))
+            y = int(child.attrib.get('Y'))
+            height = int(elem.attrib.get('Height', 0))
+            width = int(elem.attrib.get('Width', 0))
+            return {'height':height, 'width':width, 'x': x, 'y': y}
+    return {'x': 0, 'y': 0}
+
 def wrap_text_by_approx_width(text, max_width, font_size):
     """
     Wrap text into lines that fit within the given max_width in pixels.
@@ -528,6 +538,59 @@ def parse_xml_to_svg(xml_file, svg_file):
 
     except Exception as e:
         print(f"Error processing XML and generating SVG: {e}")
+
+
+def calculate_edge(from_element, to_element):
+    """Calculate the point on the edge of the from_element closest to the to_element."""
+    if from_element['type'] == 'rect':
+        from_center = (from_element['x'] + from_element['width'] / 2, from_element['y'])
+    elif from_element['type'] == 'circle':
+        from_center = from_element['center']
+    elif from_element['type'] == 'diamond':
+        from_center = from_element['center']
+
+    if to_element['type'] == 'rect':
+        to_center = (to_element['x'] + to_element['width'] / 2, to_element['y'])
+    elif to_element['type'] == 'circle':
+        to_center = to_element['center']
+    elif to_element['type'] == 'diamond':
+        to_center = to_element['center']
+
+    dx = to_center[0] - from_center[0]
+    dy = to_center[1] - from_center[1]
+
+    if from_element['type'] == 'rect':
+        half_width = from_element['width'] / 2
+        half_height = from_element['height'] / 2
+
+        if abs(dx) > abs(dy):
+            if dx > 0:
+                return (from_center[0] + half_width, from_center[1])
+            else:
+                return (from_center[0] - half_width, from_center[1])
+        else:
+            if dy > 0:
+                return (from_center[0], from_center[1] + half_height)
+            else:
+                return (from_center[0], from_center[1] - half_height)
+    elif from_element['type'] == 'circle':
+        radius = from_element['radius']
+        angle = math.atan2(dy, dx)
+        return (from_center[0] + radius * math.cos(angle), from_center[1] + radius * math.sin(angle))
+    elif from_element['type'] == 'diamond':
+        half_width = from_element['width'] / 2
+        half_height = from_element['height'] / 2
+
+        if abs(dx) > abs(dy):
+            if dx > 0:
+                return (from_center[0] + half_width, from_center[1])
+            else:
+                return (from_center[0] - half_width, from_center[1])
+        else:
+            if dy > 0:
+                return (from_center[0], from_center[1] + half_height)
+            else:
+                return (from_center[0], from_center[1] - half_height)
 
 
 if __name__ == "__main__":
